@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.yourbodygoals_apps.SignUp">
+
+    <EditText
+        android:id="@+id/et_fullname"
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:hint="YOUR FULL NAME"/>
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:inputType="phone"
+        android:hint="AGE"/>
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:inputType="phone"
+        android:hint="WEIGHT (KG.)"/>
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:inputType="phone"
+        android:hint="HEIGHT (CM.)"/>
+
+    <Button
+        android:id="@+id/btn_entertheapp"
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:onClick="onEnterTheApp"
+        android:text="ENTER THE APPLICATION"/>
+
+</RelativeLayout>

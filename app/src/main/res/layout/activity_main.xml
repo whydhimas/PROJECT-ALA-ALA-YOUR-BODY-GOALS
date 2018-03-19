@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bground"
+    tools:context="com.example.android.yourbodygoals_apps.MainActivity">
+
+    <ImageView
+        android:id="@+id/img_splash"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-150dp"
+        android:src="@drawable/logo_ybg2" />
+
+    <ImageView
+        android:id="@+id/img_calculator"
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:layout_alignBottom="@+id/img_splash"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:src="@drawable/menu1" />
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/img_calculator"
+        android:layout_marginRight="21dp"
+        android:src="@drawable/menu2"
+        android:id="@+id/img_makanan_n_minuman" />
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:layout_alignLeft="@+id/img_makanan_n_minuman"
+        android:layout_alignStart="@+id/img_makanan_n_minuman"
+        android:layout_below="@+id/img_makanan_n_minuman"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/menu4"
+        android:id="@+id/img_wikipedia_mini" />
+
+    <ImageView
+        android:id="@+id/img_jenis_olahraga"
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:layout_alignLeft="@+id/img_calculator"
+        android:layout_alignStart="@+id/img_calculator"
+        android:layout_alignTop="@+id/img_wikipedia_mini"
+        android:src="@drawable/menu3" />
+
+    <ImageView
+        android:id="@+id/img_riwayat"
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:layout_alignLeft="@+id/img_jenis_olahraga"
+        android:layout_alignStart="@+id/img_jenis_olahraga"
+        android:layout_below="@+id/img_jenis_olahraga"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/menu5" />
+
+    <ImageView
+        android:id="@+id/img_about"
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:layout_alignLeft="@+id/img_wikipedia_mini"
+        android:layout_alignStart="@+id/img_wikipedia_mini"
+        android:layout_alignTop="@+id/img_riwayat"
+        android:src="@drawable/menu6" />
+
+    <TextView
+        android:id="@+id/tv_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:layout_centerHorizontal="true"
+        android:text="LOGOUT"
+        android:textColor="#F0F0F0" />
+
+    <ImageView
+        android:id="@+id/iv_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_logout"
+        android:layout_alignEnd="@+id/img_about"
+        android:layout_alignRight="@+id/img_about"
+        android:src="@drawable/ic_help" />
+
+</RelativeLayout>
