@@ -8,22 +8,15 @@
     android:background="@drawable/bground"
     tools:context="com.example.android.yourbodygoals_apps.MenuCalculator">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:text="CALCULATOR BODY MASS INDEX" />
-
     <EditText
         android:id="@+id/et_height_calc"
         android:layout_width="280sp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="40dp"
         android:inputType="phone"
-        android:hint="ENTER THE HEIGHT"/>
+        android:hint="ENTER THE HEIGHT (CM.)"/>
 
     <EditText
         android:id="@+id/et_weight_calc"
@@ -31,9 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="90dp"
         android:inputType="phone"
-        android:hint="ENTER THE WEIGHT"/>
+        android:hint="ENTER THE WEIGHT (KG.)"/>
 
     <EditText
         android:id="@+id/et_age_calc"
@@ -41,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="140dp"
         android:inputType="phone"
         android:hint="ENTER THE AGE"/>
 
@@ -51,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="190dp"
         android:text="COUNT"/>
 
 </RelativeLayout>

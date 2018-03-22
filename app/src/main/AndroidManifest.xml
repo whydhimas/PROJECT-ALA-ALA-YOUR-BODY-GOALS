@@ -25,8 +25,47 @@
         <activity android:name=".ForTheFirstTime" />
         <activity
             android:name=".MenuCalculator"
-            android:theme="@style/AppTheme" />
-        <activity android:name=".HelpPage"></activity>
+            android:label="CALCULATOR BMI"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MenuMakananMinuman"
+            android:label="MAKANANAN MINUMAN SEHAT"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MenuJenisOlahraga"
+            android:label="JENIS OLAH RAGA"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MenuWikipediaMini"
+            android:label="WIKIPEDIA MINI"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MenuRiwayatPenggunaan"
+            android:label="RIWAYAT PENGGUNAAN APP."
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".HelpPage" />
+        <activity android:name=".MenuAbout" />
+
     </application>
 
 </manifest>

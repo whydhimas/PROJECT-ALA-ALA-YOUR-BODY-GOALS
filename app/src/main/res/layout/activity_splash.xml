@@ -14,4 +14,10 @@
         android:src="@drawable/logo_ybg"
         android:layout_centerHorizontal="true"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="ver.01 BETA"/>
 </RelativeLayout>

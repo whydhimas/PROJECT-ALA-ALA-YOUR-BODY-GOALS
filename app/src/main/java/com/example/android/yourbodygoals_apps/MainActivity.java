@@ -36,6 +36,46 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mMenuMakananMinuman.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MenuMakananMinuman.class);
+                startActivity(intent);
+            }
+        });
+
+        mMenuJenisOlahraga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MenuJenisOlahraga.class);
+                startActivity(intent);
+            }
+        });
+
+        mMenuWikipediaMini.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MenuWikipediaMini.class);
+                startActivity(intent);
+            }
+        });
+
+        mMenuRiwayat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MenuRiwayatPenggunaan.class);
+                startActivity(intent);
+            }
+        });
+
+        mMenuTentangApp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MenuAbout.class);
+                startActivity(intent);
+            }
+        });
+
         mMenuHelp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
