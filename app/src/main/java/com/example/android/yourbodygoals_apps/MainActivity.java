@@ -1,10 +1,13 @@
 package com.example.android.yourbodygoals_apps;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     ImageView mMenuCalculator;
@@ -14,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView mMenuRiwayat;
     ImageView mMenuTentangApp;
     ImageView mMenuHelp;
+    TextView mLogout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         mMenuRiwayat = (ImageView) findViewById(R.id.img_riwayat);
         mMenuTentangApp = (ImageView) findViewById(R.id.img_about);
         mMenuHelp = (ImageView) findViewById(R.id.iv_help);
+        mLogout = (TextView) findViewById(R.id.tv_logout);
 
         mMenuCalculator.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,5 +89,32 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                builder.setMessage("Anda yakin untuk logout?");
+                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        finish();
+                        Intent intent = new Intent();
+                        intent.putExtra("finish", true);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        finish();
+                    }
+                });
+
+                builder.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.cancel();
+                    }
+                });
+
+                AlertDialog alert = builder.create();
+                alert.show();
+            }
+        });
     }
 }

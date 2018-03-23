@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1041556880097",
+    "firebase_url": "https://yourbodygoals-apps.firebaseio.com",
+    "project_id": "yourbodygoals-apps",
+    "storage_bucket": "yourbodygoals-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041556880097:android:eec8e702c27dd233",
+        "android_client_info": {
+          "package_name": "com.example.android.yourbodygoals_apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041556880097-n9joafd3cd1h33en4797j5v8klvm9ptt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.yourbodygoals_apps",
+            "certificate_hash": "77f2a1705ce6c54f692b6bf1c0b361347d17627d"
+          }
+        },
+        {
+          "client_id": "1041556880097-7ftdsi88vthgqbrqdv6o9n6atq7vg18t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoPAnARj_HVOIO66GF_KvLepM8ILje6kE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041556880097-7ftdsi88vthgqbrqdv6o9n6atq7vg18t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

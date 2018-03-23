@@ -11,8 +11,8 @@
         android:id="@+id/img_splash"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_EnterTheIdentity"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="-90dp"
         android:src="@drawable/logo_ybg" />
 
     <TextView
@@ -29,11 +29,11 @@
         android:text="FOR THE FIRST TIME"/>
 
     <Button
+        android:id="@+id/btn_EnterTheIdentity"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="300dp"
-        android:onClick="onEnterTheIdentity"
         android:text="ENTER YOUR IDENTITY HERE"/>
 
 </RelativeLayout>
