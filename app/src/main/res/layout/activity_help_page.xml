@@ -7,8 +7,6 @@
     android:background="@drawable/bground"
     tools:context="com.example.android.yourbodygoals_apps.HelpPage">
 
-
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,7 +14,9 @@
         android:layout_marginTop="30dp"
         android:textColor="#F0F0F0"
         android:textSize="30sp"
-        android:text="YOU NEED HELP??"/>
+        android:text="YOU NEED A HELP??"
+        android:textStyle="bold"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

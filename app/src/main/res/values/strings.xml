@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">YOUR BODY GOALS</string>
+    <string name="very_severely_underweight">Berat badan Anda sangat amat kurus</string>
+    <string name="severely_underweight">Berat badan Anda sangat kurus</string>
+    <string name="underweight">Berat badan Anda kurus</string>
+    <string name="normal">Berat badan Anda normal</string>
+    <string name="overweight">Anda kelebihan berat badan</string>
+    <string name="obese_class_i">Anda obesitas kelas I</string>
+    <string name="obese_class_ii">Anda obesitas kelas II</string>
+    <string name="obese_class_iii">Anda obesitas kelas III</string>
 </resources>

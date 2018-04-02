@@ -14,7 +14,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:inputType="textPersonName"
-        android:hint="YOUR FULL NAME"/>
+        android:hint="YOUR FULL NAME"
+        android:backgroundTint="#0C6459"/>
 
     <EditText
         android:id="@+id/et_age"
@@ -24,7 +25,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
         android:inputType="phone"
-        android:hint="AGE"/>
+        android:hint="AGE"
+        android:backgroundTint="#0C6459"/>
 
     <EditText
         android:id="@+id/et_weight"
@@ -34,7 +36,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
         android:inputType="phone"
-        android:hint="WEIGHT (KG.)"/>
+        android:hint="WEIGHT (KG.)"
+        android:backgroundTint="#0C6459"/>
 
     <EditText
         android:id="@+id/et_height"
@@ -44,7 +47,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="250dp"
         android:inputType="phone"
-        android:hint="HEIGHT (CM.)"/>
+        android:hint="HEIGHT (CM.)"
+        android:backgroundTint="#0C6459"/>
 
     <Button
         android:id="@+id/btn_entertheapp"

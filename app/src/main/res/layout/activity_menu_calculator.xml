@@ -47,4 +47,27 @@
         android:layout_marginTop="190dp"
         android:text="COUNT"/>
 
+    <TextView
+        android:id="@+id/tv_calc_result_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_count_calc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text=""
+        android:textColor="#ffff"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/et_result_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="#ffff"/>
+
 </RelativeLayout>
