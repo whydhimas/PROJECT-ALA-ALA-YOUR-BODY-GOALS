@@ -4,10 +4,17 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.Window;
 import android.view.WindowManager;
 
+import java.util.ArrayList;
+
 public class MenuWikipediaMini extends AppCompatActivity {
+    private RecyclerView mRecyclerView;
+    private ArrayList<WikipediaMini> mWikiMini;
+    private WikipediaMiniAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +27,26 @@ public class MenuWikipediaMini extends AppCompatActivity {
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.setStatusBarColor(getResources().getColor(R.color.GreenDark));
         }
+
+        mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        mWikiMini = new ArrayList<WikipediaMini>();
+
+        mAdapter = new WikipediaMiniAdapter(this, mWikiMini);
+        mRecyclerView.setAdapter(mAdapter);
+
+        initialzeData();
+    }
+
+    private void initialzeData() {
+        String[] mineralList = getResources().getStringArray(R.array.wikipedia_judul);
+        String[] mineralDesc = getResources().getStringArray(R.array.wikipedia_desc);
+
+        mWikiMini.clear();
+
+        for (int i =0; i<mineralList.length; i++){
+            mWikiMini.add(new WikipediaMini(mineralList[i], mineralDesc[i]));
+        }
+        mAdapter.notifyDataSetChanged();
     }
 }

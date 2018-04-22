@@ -8,4 +8,48 @@
     <string name="obese_class_i">Anda obesitas kelas I,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
     <string name="obese_class_ii">Anda obesitas kelas II,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
     <string name="obese_class_iii">Anda obesitas kelas III,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
+
+    <string-array name="wikipedia_judul">
+        <item>Penyakit pada kesehatan</item>
+        <item>Makanan sehat untuk diet</item>
+        <item>How to?</item>
+        <item>Gizi Seimbang</item>
+    </string-array>
+    <string-array name="wikipedia_desc">
+        <item>Disebabkan terlalu banyak mengkonsumsi diantaranya seperti makan makanan yang tidak teratur</item>
+        <item>Makanan sehat yang disarankan untuk diet anda sesuai golongan darah:
+                \n
+                \nGolongan darah A
+                \nDiet dengan golongan darah A dianjurkan lebih cenderung mengkonsumsi buah dan sayuran, Sehingga ada ungkapan yang sering terdengar golongan darah A lebih cocok menjadi vegetarian. \nBeberapa makanan yang tidak dianjurkan untuk dikonsumsi adalah makanan tinggi lemak, amakan tinggi karbohidrat, keju, es krim dan susu. Dalam memakmsimalkan penurunan berat badan penderita obesita golongan darah dianjurkan jg melakukan olahraga ringan seperti outdoor, taichi dan berjalan santai.
+                \n
+                \nGolongan darah B
+                \nAnda boleh berbangga jika memiliki golongan darah ini, anti bodi yang tinggi akan menghindarkan anda dari berbagai penyakit. Dari sekian banyak makanan yang ada di bumi ini, pemilik golongan darah B dianjurkan untuk mengkonsumsi wortel, brokoli, susu, ikan laut, keju dan yogurt. \nSelain makanan tersebut ada beberapa makanan yang harus dihindari, yaitu bebek, ayam, kacang tanah, belimbing, jagung, pir, air soda dan olahan gandum karena beresiko pada serangan jantung. Untuk mengimbangi diet yang anda lakukan, iringi dengan olahraga yang teratur untuk menjaga kestabilan tubuh.
+                \n
+                \nGolongan darah AB
+                \nDari kata A dan B yang menjadi AB sudah barang tentu ada yang beranggapan memiliki kemiripan. Memang benar, golongan darah ini menjadi perantara golongan dara A dan B yang digabung menjadi satu yang memiliki keunikan dan dibalut dengan hal misterius. \nOrang yang memiliki golongan darah ini dapat menyesuaikan dengan berbagai makanan, shingga memudahkan orang melakukan diet sehat dengan mengkonsumsi aneka macam sayuran, daging dan buah buahan. \nDikarenakan golongan darah ini dapat mengkonsumsi berbagai macam jenis makanan, Pemilik golongan darah ini tidak diperkenankan juga hanya mengkonsumsi jenis makanan tertentu tanpa mengkonsumsi makanan lain, seorang yang pandai dalam menyeimbangkan makanan yang mereka konsumsi akan dipermudah dalam melakukan program diet sukses.
+                \n
+                \nGolongan darah O
+                \nPerbanyak jenis makanan seperti seafood, sayur mayur, dan protein heawani yang tinggi yang dapat anda temukan di lingkungan sekitar. Untuk meminimalisir resiko terserangnya penyakit lambung, hindari makanan seperti sayuran yang mengandung lektin, jamur, kentang, terong, Selain itu makanan tersebut berpotensi menimbulkan alergi dan rasa nyeri pada lambung. \nDalam menjalankan program diet menggnukanan golongan darah, dianjurkan untuk olahrag seperti bersepeda, renang, jogging dan laitahn kardio.
+                \n
+                \nSRC: http://www.arwini.com/diet-sehat-berdasarkan-golongan-darah/</item>
+        <item>Cara menurunkan berat badang antara lain adalah...</item>
+        <item>Gizi seimbang adalah susunan makanan sehari–hari yang mengandung zat-zat gizi dalam jenis dan jumlah yang sesuai dengan kebutuhan tubuh, dengan memerhatikan prinsip keanekaragaman atau variasi makanan, aktivitas fisik, kebersihan, dan berat badan (BB) ideal.
+                \nKonsep Empat Sehat Lima Sempurna yang dipopulerkan Bapak Gizi Indonesia, Prof. Poerwo Soedarmo sekitar tahun 1952 sudah tidak lagi digunakan, kini sudah berkembang dan disempurnakan menjadi Pedoman Gizi Seimbang (PGS).
+                \nDemikian pernyataan Direktur Gizi Masyarakat Kemenkes RI, Ir Doddy Izwardi, MA pada kegiatan Sosialisasi Pedoman Gizi Seimbang kepada Pendidik dan Institusi Pendidikan yang bertajuk Gizi Seimbang Bangsa Sehat Berprestasi di salah satu hotel di kawasan Jakarta Selatan, Kamis (5/5).
+                \nDalam paparannya, Doddy  menjelaskan ada empat perbedaan utama konsep lama empat sehat lima sempurna, dengan konsep terkini yang dinamakan pedoman gizi seimbang, yaitu:
+                \n
+                \n1. Penekanan Pesan
+                \nSeperti kita ketahui konsep Empat Sehat Lima Sempurna menekankan pada konsumsi nasi, lauk pauk, sayur, buah dan memandang susu sebagai bahan pangan yang menyempurnakan. \nSementara konsep Gizi Seimbang dimaknai sebagai susunan makanan sehari-hari yang mengandung zat-zat gizi dalam jenis dan jumlah yang sesuai dengan kebutuhan tubuh. Selain itu, PGS memperhatikan 4 prinsip, yaitu: Membiasakan makan makanan yang beraneka ragam, Menjaga pola hidup bersih, Pentingnya pola hidup aktif dan olah raga, dan pantau berat badan.
+                \n
+                \n2. Susu Bukan Penyempurna
+                \nDi dalam konsep Empat Sehat Lima Sempurna, susu menjadi manakan/minuman yang dikelompokkan tersendiri dan dianggap sebagai penyempurna. Sedangkan di dalam konsep PGS, susu termasuk kedalam kelompok lauk-pauk dan bukan makanan penyempurna dan dapat digantikan dengan jenis makanan lainnya yang sama nilai gizinya. \nKandungan gizi dalam susu adalah protein dan beragam mineral (Kalsium, Fosfor, Zat Besi). Sementara dalam PGS, jika sudah cukup dan beragam konsumsi sumber protein seperti telur dan daging, daging dan ikan, tidak mengonsumsi susu juga tidak apa-apa, terang Doddy.
+                \n
+                \n3. Penjelasan Mengenai Porsi
+                \nDalam konsep Empat Sehat Lima Sempurna tidak menyertakan informasi jumlah yang harus  dikonsumsi dalam sehari. Sedangkan konsep PGS tidak hanya ada atau tidak, juga memasukkan penjelasan tentang kuantitas atau jumlah (porsi) yang harus dimakan setiap hari untuk setiap kelompok makanan. \nSeperti diketahui, setiap hari tubuh membutuhkan asupan protein nabati 2-3 porsi, protein hewani 2-3 porsi,  makanan pokok 3-8 porsi, sayuran 3-5 porsi, buah 3-5 porsi dan minum air mineral minimal 8 gelas. \nDalam PGS jika pola makan kita tinggi karbohidrat, tinggi lemak, sedikit protein, sedikit sayur dan buah, maka pola  tersebut tidak bisa dikatakan sehat. Berbeda pada 4 sehat 5 sempurna, pola makan tersebut dihitung meski protein, sayur dan buah porsinya sedikit, jelasnya.
+                \n
+                \n4. Pentingnya Minum Air Mineral
+                \nKonsep Empat Sehat Lima Sempurna tidak menggambarkan bahwa tubuh perlu minum air mineral secara cukup, aman, dan bersih. Sementara konsep PGS sudah menjelaskan pentingnya mencukupi kebutuhan minum air mineral minimal 2 liter, atau lebih kurang 8 gelas per hari.
+                \n
+                \nSRC: http://www.depkes.go.id/article/view/16051300001/inilah-perbedaan-4-sehat-5-sempurna-dengan-gizi-seimbang-.html</item>
+    </string-array>
 </resources>
