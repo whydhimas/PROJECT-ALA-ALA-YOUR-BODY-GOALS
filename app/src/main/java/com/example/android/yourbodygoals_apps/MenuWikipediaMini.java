@@ -1,5 +1,6 @@
 package com.example.android.yourbodygoals_apps;
 
+import android.content.res.TypedArray;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -41,12 +42,15 @@ public class MenuWikipediaMini extends AppCompatActivity {
     private void initialzeData() {
         String[] mineralList = getResources().getStringArray(R.array.wikipedia_judul);
         String[] mineralDesc = getResources().getStringArray(R.array.wikipedia_desc);
+        TypedArray mineralImageResources = getResources().obtainTypedArray(R.array.wikiImages);
 
         mWikiMini.clear();
 
         for (int i =0; i<mineralList.length; i++){
-            mWikiMini.add(new WikipediaMini(mineralList[i], mineralDesc[i]));
+            mWikiMini.add(new WikipediaMini(mineralList[i], mineralDesc[i], mineralImageResources.getResourceId(i,0)));
         }
+
+        mineralImageResources.recycle();
         mAdapter.notifyDataSetChanged();
     }
 }

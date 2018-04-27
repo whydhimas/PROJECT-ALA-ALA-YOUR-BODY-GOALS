@@ -1,15 +1,21 @@
 package com.example.android.yourbodygoals_apps;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.PopupWindow;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -61,9 +67,11 @@ public class MainActivity extends AppCompatActivity {
         mMenuJenisOlahraga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MenuJenisOlahraga.class);
-                startActivity(intent);
+                //Intent intent = new Intent(MainActivity.this, MenuJenisOlahraga.class);
+                //startActivity(intent);
+                buildDialog(0, "Menu under construction \nYou are running ver.01 BETA");
             }
+
         });
 
         mMenuWikipediaMini.setOnClickListener(new View.OnClickListener() {
@@ -77,8 +85,9 @@ public class MainActivity extends AppCompatActivity {
         mMenuRiwayat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MenuRiwayatPenggunaan.class);
-                startActivity(intent);
+                //Intent intent = new Intent(MainActivity.this, MenuRiwayatPenggunaan.class);
+                //startActivity(intent);
+                buildDialog(0, "Menu under construction \nYou are running ver.01 BETA");
             }
         });
 
@@ -125,5 +134,15 @@ public class MainActivity extends AppCompatActivity {
                 alert.show();
             }
         });
+    }
+
+    private void buildDialog(int animationSource, String type) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Warning");
+        builder.setMessage(type);
+        builder.setNegativeButton("OK", null);
+        AlertDialog dialog = builder.create();
+        dialog.getWindow().getAttributes().windowAnimations = animationSource;
+        dialog.show();
     }
 }

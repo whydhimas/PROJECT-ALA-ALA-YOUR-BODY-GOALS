@@ -63,6 +63,7 @@ public class WikipediaMiniAdapter extends RecyclerView.Adapter<WikipediaMiniAdap
             Intent detailInt = new Intent(mContext, WikipediaMiniDetail.class);
             detailInt.putExtra("title", currentMineral.getJudul());
             detailInt.putExtra("desc", currentMineral.getDesc());
+            detailInt.putExtra("image_resource", currentMineral.getImg());
 
             mContext.startActivity(detailInt);
         }

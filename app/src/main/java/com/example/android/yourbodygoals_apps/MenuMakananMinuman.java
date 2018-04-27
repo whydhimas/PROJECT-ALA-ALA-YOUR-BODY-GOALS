@@ -2,6 +2,7 @@ package com.example.android.yourbodygoals_apps;
 
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -35,9 +36,18 @@ public class MenuMakananMinuman extends AppCompatActivity {
         mBtnShowMakananMinuman.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String ageString = mAgeMakananMinuman.getText().toString();
-
+                buildDialog(0, "Menu under construction \nYou are running ver.01 BETA");
             }
         });
+    }
+
+    private void buildDialog(int animationSource, String type) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Warning");
+        builder.setMessage(type);
+        builder.setNegativeButton("OK", null);
+        AlertDialog dialog = builder.create();
+        dialog.getWindow().getAttributes().windowAnimations = animationSource;
+        dialog.show();
     }
 }

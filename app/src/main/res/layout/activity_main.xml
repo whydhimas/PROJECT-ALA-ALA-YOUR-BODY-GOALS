@@ -52,14 +52,14 @@
         android:src="@drawable/menu4"
         android:id="@+id/img_wikipedia_mini" />
 
-    <ImageView
-        android:id="@+id/img_jenis_olahraga"
-        android:layout_width="150sp"
-        android:layout_height="120sp"
-        android:layout_alignLeft="@+id/img_calculator"
-        android:layout_alignStart="@+id/img_calculator"
-        android:layout_alignTop="@+id/img_wikipedia_mini"
-        android:src="@drawable/menu3" />
+        <ImageView
+            android:id="@+id/img_jenis_olahraga"
+            android:layout_width="150sp"
+            android:layout_height="120sp"
+            android:layout_alignLeft="@+id/img_calculator"
+            android:layout_alignStart="@+id/img_calculator"
+            android:layout_alignTop="@+id/img_wikipedia_mini"
+            android:src="@drawable/menu3" />
 
     <ImageView
         android:id="@+id/img_riwayat"

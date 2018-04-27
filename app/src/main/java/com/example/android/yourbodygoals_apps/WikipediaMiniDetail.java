@@ -6,7 +6,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
 
 /**
  * Created by Yosafat Dhimas on 22/04/2018.
@@ -14,6 +17,7 @@ import android.widget.TextView;
 
 public class WikipediaMiniDetail extends AppCompatActivity {
     TextView wikiTitle, wikiDesc;
+    ImageView wikiPict;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,8 +33,10 @@ public class WikipediaMiniDetail extends AppCompatActivity {
 
         wikiTitle = (TextView)findViewById(R.id.titleDetail);
         wikiDesc = (TextView)findViewById(R.id.title_descriptionDetail);
+        wikiPict = (ImageView) findViewById(R.id.imgDetail);
 
         wikiTitle.setText(getIntent().getStringExtra("title"));
         wikiDesc.setText(getIntent().getStringExtra("desc"));
+        Glide.with(this).load(getIntent().getIntExtra("image_resource",0)).into(wikiPict);
     }
 }

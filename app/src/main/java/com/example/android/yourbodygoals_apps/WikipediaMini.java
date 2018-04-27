@@ -10,10 +10,12 @@ import java.util.ArrayList;
 public class WikipediaMini {
     private String judul;
     private String desc;
+    private final int img;
 
-    WikipediaMini(String judul, String desc) {
+    WikipediaMini(String judul, String desc, int imageResource) {
         this.judul = judul;
         this.desc = desc;
+        this.img = imageResource;
     }
 
     String getJudul() {
@@ -22,5 +24,9 @@ public class WikipediaMini {
 
     String getDesc() {
         return desc;
+    }
+
+    public int getImg(){
+        return img;
     }
 }

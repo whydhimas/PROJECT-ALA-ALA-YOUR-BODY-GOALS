@@ -10,13 +10,44 @@
     <string name="obese_class_iii">Anda obesitas kelas III,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
 
     <string-array name="wikipedia_judul">
-        <item>Penyakit pada kesehatan</item>
-        <item>Makanan sehat untuk diet</item>
-        <item>How to?</item>
+        <item>Makanan dan Kesehatan</item>
+        <item>Makanan Sehat Untuk Diet</item>
+        <item>Pola Makan</item>
         <item>Gizi Seimbang</item>
+        <item>Alergi Makanan</item>
+        <item>Obesitas</item>
+        <item>Keracunan Makanan</item>
+        <item>Manfaat Air Putih</item>
     </string-array>
+
     <string-array name="wikipedia_desc">
-        <item>Disebabkan terlalu banyak mengkonsumsi diantaranya seperti makan makanan yang tidak teratur</item>
+        <item>Mengapa Kita Sakit?
+                \nDi zaman “modern” ini tanpa kita sadari tubuh kita sudah tercemar racun (toksin) dari makanan yang kita konsumsi sehari – hari. Semakin lama toksin tersebut berkumpul dan menumpuk di dalam tubuh.Toksin bukan saja menghancurkan fungsi-fungsi pencernaan kita yang normal, tetapi itu juga dapat mengikuti peredaran darah ke berbagai bagian organ tubuh kita, lalu merusak sistem sirkulasi (pembuluh-pembuluh darah), organ-organ penyaring (hati dan ginjal), dan organ-organ pengeluaran/ekskresi, dan akhirnya kita jatuh sakit.Sakit adalah akibat kegagalan tubuh kita menyingkirkan bahan buangan, lendir (mucus), serta timbunan racun (toksin) yang menghalangi fungsi-fungsi normal tubuh manusia, sehingga kekebalan tubuh menurun.
+                \n
+                \n“BAHAYA” Makanan Terhadap Tubuh
+                \nMari cermati apakah makanan Anda bersumber dari bahan-bahan berikut ini? Menyediaan dan pengolahan makan dewasa ini selalu berkaitan dengan bahan-bahan buatan yang dalam jangka waktu lama akan menimbulkan gangguan kesehatan.
+                \na. Pertanian
+                \nPenggunaan pestisida, herbisida, perangsang pertumbuhan, dan lain sebagainya, atau bahkan rekayasa genetika.
+                \nb. Peternakan
+                \nPenggunaan pakan dan minuman ternak yang selalu mengandung unsur kimia, suntikan, obat-obatan untuk mempercepat pertumbuhan, dan lain sebagainya.
+                \nc. Sumber air
+                \nAkibat dari pengadaan pertanian, peternakan, industri, dan lain-lain, sumber air kita banyak tercemar oleh bahan-bahan kimia yang berbahaya.
+                \nd. Pengolahan makanan
+                \nSering kita dapati menggunakan bahan buatan seperti pengawet, pewarna, perasasa, atau bahkan menggunakan kemasan yang tidak sehat seperti melamin, styrofoam (yang mengandung formaldehid) dan lain sebagainya.
+                \n
+                \nSerangan terhadap Kekebalan Tubuh
+                \nSetiap waktu kekebalan tubuh kita diserang oleh berbagai faktor dari luar seperti antibiotik, kemoterapi, vaksin, sinar-X, radiasi, , alcohol, rokok, bahan kimia, gula, lemak, polusi, pembedahan yang tidak perlu, stress, kosmetik, dan lain sebagainya. Sistem kekebalan yang lumpuh akan memudahkan kita jatuh sakit.
+                \nDalam waktu yang tidak lama toksin / racun akan menemukan jalan masuk kedalam darah, dan menyerang 3 (tiga) fungsi toksifikasi:
+                \na. Sistem pencernaan (perut, isi perut, usus besar)
+                \nb. Sistem Endokrin (kelenjar pituary, kelenjar adrenal, kelenjar tiroid/gondok, kelenjar pankreas dan kelenjar seks)
+                \nc. Sistem Penyaringan (hati, kulit, rahim dan ginjal).
+                \nPenyerangan tersebut akan melemahkan badan yang menyebabkan anda mudah sakit, lesu, lemah dan terjadi penuaan dini, mempengaruhi fungsi sistem pencernaan, membahayakan kesehatan dan dapat menyebabkan sakit yang serius dalam jangka panjang.
+                \n
+                \nKotoran Tersumbat
+                \nSumber penyakit manusia 90% berasal dari Usus (Kolon) yang tidak bersih / tidak sehat. \nPanjang saluran pernernaan manusia adalah 6 kali tinggi badan (± 10 meter). Makanan yang dimakan tiap hari akan meninggalkan sisa pada permukaan dinding usus. Tumpukan sisa makanan mengendap dari waktu ke waktu yang akan menyebabkan toxid (bahan beracun). Selanjutnya toxid (bakteri, fungi, dan parasit) akan lepas ke dalam sistem peredaran darah sehingga menghasilkan toxin(racun) dalam darah. \nPara dokter percaya bahwa toksin-toksin yang terkumpul didalam tubuh adalah penyebab utama datangnya penyakit bukannya kuman-kuman. Bakteri atau kuman-kuman hanya berdampak ketika terlalu banyak sisa-sisa pembuangan (toksin) didalam tubuh kita sehingga menyebabkan tubuh kita lemah dan daya tahan tubuh menurun.
+                \n
+                \nSRC: https://melileasehat.wordpress.com/tentang-melilea/makanan-dan-kesehatan/
+        </item>
         <item>Makanan sehat yang disarankan untuk diet anda sesuai golongan darah:
                 \n
                 \nGolongan darah A
@@ -31,8 +62,33 @@
                 \nGolongan darah O
                 \nPerbanyak jenis makanan seperti seafood, sayur mayur, dan protein heawani yang tinggi yang dapat anda temukan di lingkungan sekitar. Untuk meminimalisir resiko terserangnya penyakit lambung, hindari makanan seperti sayuran yang mengandung lektin, jamur, kentang, terong, Selain itu makanan tersebut berpotensi menimbulkan alergi dan rasa nyeri pada lambung. \nDalam menjalankan program diet menggnukanan golongan darah, dianjurkan untuk olahrag seperti bersepeda, renang, jogging dan laitahn kardio.
                 \n
-                \nSRC: http://www.arwini.com/diet-sehat-berdasarkan-golongan-darah/</item>
-        <item>Cara menurunkan berat badang antara lain adalah...</item>
+                \nSRC: http://www.arwini.com/diet-sehat-berdasarkan-golongan-darah/
+        </item>
+        <item>Pola Makan yang Dapat Membahayakan Kesehatan Tubuhmu, Apa Saja Ya?
+                \n
+                \nMakan menjadi hal vital dalam mendukung kesehatan dan kehidupan manusia. Sehingga jika kamu ingin memiliki tubuh yang sehat, sangatlah penting memenuhi piring makanmu dengan makanan sehat serta menerapkan pola makan atau kebiasaan makan yang baik.
+                \nSebelum memulai kebiasaan makan yang baik, mari kita menelaah beberapa pola makan atau kebiasaan makanan yang bisa membahayakan kesehatan tubuh namun sayangnya kamu lakukan setiap hari.
+                \n
+                \nKonsumsi makanan tinggi karbohidrat
+                \nNasi yang menjadi makanan pokok orang Indonesia sangatlah tinggi akan kandungan karbohidrat di dalamnya. Karbohidrat memang penting untuk membangun energi. Namun jika berlebihan, maka karbohidrat yang tidak tercerna dengan baik akan menjadi tumpukan kalori yang membahayakan kesehatan tubuh.
+                \n
+                \nKebanyakan konsumsi gula
+                \nTak hanya dalam makanan berasa manis saja, gula juga bisa kamu temui di minuman kemasan, roti, atau bahkan nasi. Dan kebanyakan konsumsi gula mampu menyebabkan obesitas, naiknya kolesterol, hingga diabetes.
+                \n
+                \nKonsumsi gorengan
+                \nMakan gorengan dengan nasi memang enak. Namun jangan berlebih karena kandungan minyak dalam gorengan tentu saja bisa meningkatkan kolesterol dalam darah.
+                \n
+                \nNgemil makanan tidak sehat
+                \nMenu cemilan kebanyakan didominasi makanan kaya garam, minyak, gula, atau terlalu banyak mengandung MSG. Dan jika kamu suka ngemil berlebihan, obesitas dan serangkaian penyakit berbahaya lainnya jadi ancaman.
+                \n
+                \nMakan di malam hari
+                \nBatas waktu makan di malam hari adalah pukul 7 malam. Jika lebih dari waktu yang ditentukan, makanan tidak akan tercerna dengan baik. Akibatnya akan muncul gangguan pencernaan dan obesitas.
+                \n
+                \nJarang makan sayur
+                \nTak perlu dijelaskan lagi bahwa sayuran padat serat dan nutrisi sehat. Jika kamu jarang makan sayur, maka tak ada spons alami yang mampu menyerap beragam zat berbahaya di tubuh dan tak ada suntikan nutrisi alami bagi kesehatan tubuhmu.
+                \n
+                \nSRC: https://www.merdeka.com/sehat/6-pola-makan-yang-bisa-bahayakan-kesehatan-tubuhmu-apa-saja.html
+        </item>
         <item>Gizi seimbang adalah susunan makanan sehari–hari yang mengandung zat-zat gizi dalam jenis dan jumlah yang sesuai dengan kebutuhan tubuh, dengan memerhatikan prinsip keanekaragaman atau variasi makanan, aktivitas fisik, kebersihan, dan berat badan (BB) ideal.
                 \nKonsep Empat Sehat Lima Sempurna yang dipopulerkan Bapak Gizi Indonesia, Prof. Poerwo Soedarmo sekitar tahun 1952 sudah tidak lagi digunakan, kini sudah berkembang dan disempurnakan menjadi Pedoman Gizi Seimbang (PGS).
                 \nDemikian pernyataan Direktur Gizi Masyarakat Kemenkes RI, Ir Doddy Izwardi, MA pada kegiatan Sosialisasi Pedoman Gizi Seimbang kepada Pendidik dan Institusi Pendidikan yang bertajuk Gizi Seimbang Bangsa Sehat Berprestasi di salah satu hotel di kawasan Jakarta Selatan, Kamis (5/5).
@@ -50,6 +106,97 @@
                 \n4. Pentingnya Minum Air Mineral
                 \nKonsep Empat Sehat Lima Sempurna tidak menggambarkan bahwa tubuh perlu minum air mineral secara cukup, aman, dan bersih. Sementara konsep PGS sudah menjelaskan pentingnya mencukupi kebutuhan minum air mineral minimal 2 liter, atau lebih kurang 8 gelas per hari.
                 \n
-                \nSRC: http://www.depkes.go.id/article/view/16051300001/inilah-perbedaan-4-sehat-5-sempurna-dengan-gizi-seimbang-.html</item>
+                \nSRC: http://www.depkes.go.id/article/view/16051300001/inilah-perbedaan-4-sehat-5-sempurna-dengan-gizi-seimbang-.html
+        </item>
+        <item>Alergi makanan adalah reaksi alergi yang terjadi akibat sistem kekebalan tubuh kita keliru merespons protein yang berasal dari makanan dan menganggapnya sebagai suatu ancaman. Salah satu reaksi alergi yang muncul bisa berupa rasa gatal dan ruam pada kulit.
+                \n
+                \nGejala Alergi Makanan
+                \nPenderita alergi makanan yang dipicu imunoglobulin E biasanya akan mengalami gejala berupa ruam merah dan gatal di kulit, kesemutan atau gatal di dalam rongga mulut, sulit menelan, dan pembengkakan pada mulut, wajah, serta bagian tubuh lainnya. Ruam pada alergi jenis ini biasanya tampak timbul pada permukaan kulit. \nSelain gejala-gejala tersebut, dapat juga terjadi mual dan muntah, mata terasa gatal, bersin-bersin atau napas pendek, pening atau pusing, diare, sakit perut, serta sesak napas. \nPada kasus alergi makanan non-imunoglobulin E, gejala utama yang timbul sebenarnya hampir sama dengan gejala pada alergi makanan yang diperantarai oleh imunogbulin E, yaitu munculnya rasa gatal dan ruam di kulit. Namun bedanya, tekstur ruam pada jenis alergi ini tidak tampak timbul. Selain itu ada yang mengalami gejala seperti penyakit eksim atopik, yaitu kulit kering dan pecah-pecah, berwarna merah, serta terasa gatal. \nKadang-kadang alergi makanan non-imunoglobulin E dapat memunculkan gejala seperti yang disebabkan oleh kondisi lain di luar alergi, sehingga mungkin salah terdiagnosa. Gejala-gejala tersebut di antaranya: Area kelamin dan anus tampak berwarna kemerahan, gangguan pencernaan, sembelit, frekuensi buang air besar meningkat, adanya lendir atau darah pada veses, dan kulit pucat. \nJangan sepelekan alergi makanan karena pada kasus tertentu bisa mengarah kepada suatu kondisi yang disebut anafilaksis atau reaksi alergi parah. Gejala awal anafilaksis memang terlihat seperti gejala alergi makanan biasa, namun dalam waktu yang sangat cepat, gejala dapat memburuk dan penderitanya bisa mengalami beberapa hal berikut: peningkatan detak jantung yang sangat cepat, kesulitan bernapas, munculnya perasaan cemas dan ketakutan yang intens secara tiba-tba, dan penurunan tekanan darah yang sangat drastis. Jika tidak segera ditangani dengan baik, anafilaksis bahkan bisa menyebabkan kematian.
+                \n
+                \nMakanan-makanan Penyebab Alergi
+                \nSemua makanan berpotensi menyebabkan alergi. Namun ada beberapa jenis makanan tertentu yang sangat umum menyebabkan kondisi tersebut, contohnya udang, lobster, kepiting, ikan, dan kacang-kacangan. \nAlergi akibat kacang-kacangan umum dialami oleh anak-anak. Selain kacang-kacangan, anak-anak juga bisa mengalami alergi setelah mengonsumsi susu, telur, gandum, dan kedelai. Alergi susu pada anak-anak sering kali menimbulkan gejala campuran yang ada di dalam alergi immunoglobulin E dan non-immunoglobulin E, yaitu pembengkakan dan sembelit.
+                \n
+                \nFaktor-faktor Peningkat Risiko Alergi Makanan
+                \nJika Anda menderita alergi selain alergi makanan, maka peluang Anda untuk terkena alergi makanan lebih besar dibandingkan orang-orang yang belum pernah memiliki alergi apa pun. Selain itu, jika Anda memiliki riwayat penyakit asma, risiko terkena alergi makanan juga lebih tinggi karena kedua kondisi ini cenderung timbul secara bersamaan. \nJika Anda menderita alergi selain alergi makanan, maka peluang Anda untuk terkena alergi makanan lebih besar dibandingkan orang-orang yang belum pernah memiliki alergi apa pun. Selain itu, jika Anda memiliki riwayat penyakit asma, risiko terkena alergi makanan juga lebih tinggi karena kedua kondisi ini cenderung timbul secara bersamaan. \nPeluang Anda untuk terkena alergi makanan juga lebih tinggi apabila terdapat anggota keluarga yang memiliki riwayat alergi, penyakit biduran, eksim, atau asma. \nFaktor risiko yang terakhir adalah usia. Bayi dan balita lebih rentan terkena alergi makanan dibandingkan dengan orang dewasa, karena selektivitas penyerapan zat makanan pada organ pencernaan bayi dan balita masih rendah. \nMeski alergi makanan cenderung hilang saat seseorang berangsur dewasa, namun pada beberapa kasus, kondisi ini bisa kembali muncul saat mereka dewasa. Terutama pada penderita alergi udang, lobster, dan kepiting, atau penderita alergi yang sering mengalami reaksi yang parah, alergi bisa saja menetap seumur hidup.
+                \n
+                \nDiagnosis Alergi Makanan
+                \nDalam mendiagnosis alergi makanan, biasanya dokter akan menanyakan gejala dan riwayat kesehatan pasien terlebih dahulu sebelum memutuskan melakukan uji laboratorium. \nSelain rentang waktu munculnya gejala setelah terpapar makanan, tingkat keparahan, dan lamanya gejala, dokter juga akan menanyakan mengenai frekuensi kemunculan gejala dan makanan apa yang sekiranya menjadi penyebab. \nDokter akan memastikan apakah pasien memiliki keluarga dengan riwayat alergi atau apakah pasien sendiri memiliki riwayat alergi, meski itu bukan alergi makanan. \nPemeriksaan lanjutan dapat dilakukan untuk menguatkan diagnosis. Yang paling umum dilakukan adalah pemeriksaan darah untuk mengukur kadar antibodi alergi atau imunoglobulin di dalam aliran darah. \nSelain itu jangan mencoba untuk melakukan uji alergi makanan sendiri tanpa pengawasan atau bimbingan dari dokter ahli agar terhindar dari efek samping yang membahayakan, salah satunya adalah reaksi alergi parah atau anafilaksis.
+                \n
+                \nPengobatan Alergi Makanan
+                \nSebenarnya tidak ada obat yang dapat menyembuhkan alergi makanan. Tujuan pemberian obat di sini adalah untuk meredakan reaksi alergi yang muncul. Karena itu, alangkah baiknya apabila penderita alergi makanan mengetahui dan menghindari makanan-makanan yang dapat memicu alergi pada dirinya. \nBerdasarkan tingkat keparahan gejala, ada dua jenis obat alergi yang umumnya digunakan. Yang pertama adalah obat-obatan antihistamin. Obat ini digunakan untuk meredakan reaksi alergi atau gejala alergi yang masih tergolong ringan hingga menengah. \nSangat penting untuk berkonsultasi terlebih dahulu kepada dokter sebelum mengonsumsi obat ini, karena ada beberapa jenis antihistamin yang tidak cocok digunakan oleh anak-anak yang berusia di bawah 2 tahun, seperti promethazine dan alimemazine. \nJenis obat alergi yang kedua adalah obat yang mengandung adrenalin. Obat ini biasanya diberikan oleh dokter untuk menanggulangi gejala alergi parah pada kasus anafilaksis dengan cara disuntikkan. Adrenalin mampu mengatasi kesulitan bernapas dengan cara memperlebar saluran napas, serta mengatasi syok dengan meningkatkan tekanan darah.
+                \n
+                \nDitinjau oleh: dr. Marianti
+                \nSRC: https://www.alodokter.com/alergi-makanan
+        </item>
+        <item>Obesitas adalah penumpukan lemak yang sangat tinggi di dalam tubuh sehingga membuat berat badan berada di luar batas ideal. \nSejumlah komplikasi dapat timbul akibat obesitas, bahkan beberapa di antaranya membahayakan nyawa. Beberapa contoh komplikasi yang cukup serius tersebut di antaranya stroke, penyakit jantung koroner, diabetes tipe 2, kanker usus, dan kanker payudara. \nSelain mengarah kepada sejumlah masalah kesehatan fisik, obesitas juga bisa menyebabkan masalah psikologis, seperti stres, dan depresi. Masalah psikologis ini timbul karena biasanya berawal dari rasa tidak percaya diri penderita obesitas yang mengalami perubahan bentuk badan. \nUntuk mengetahui apakah berat badan Anda termasuk berat badan yang sehat bisa dilakukan melalui metode penghitungan IMT (indeks massa tubuh). Rumus yang dipakai dalam penghitungan IMT adalah berat tubuh dalam kilogram dibagi dengan tinggi tubuh dalam satuan meter kuadrat (m²). Sebagai contoh jika berat badan seseorang adalah 66 kilogram dan tingginya adalah 1,65 meter, maka penghitungannya adalah 66/(1,65 X 1,65) = 24,2. Hasil ini termasuk ke dalam kategori berat badan sehat atau normal karena masih berkisar antara 18,5 sampai 24,9. \nJika hasil akhir penghitungan IMT Anda kurang dari 18,5 maka Anda dianggap kekurangan berat badan. Sebaliknya, jika hasilnya lebih dari 24,9 maka Anda dianggap kelebihan berat badan. Seseorang dinyatakan mengalami obesitas jika memiliki hasil perhitungan IMT di antara 30-39,9. Selanjutnya, seseorang dianggap mengalami obesitas ekstrem jika hasil akhir BMI di atas 40.
+                \n
+                \nPenyebab obesitas
+                \nObesitas dapat terjadi ketika kita sering mengonsumsi makanan berkalori tinggi. Sebenarnya mengonsumsi makanan berkalori tinggi tidak selalu menjadi masalah asalkan sesuai dengan aktivitas yang dilakukan tiap harinya. Namun, jika kita lebih banyak menghabiskan waktu dengan duduk dan tidak diimbangi oleh aktif berolahraga, maka sisa energi dari hasil pembakaran kalori tersebut akan disimpan di tubuh dalam bentuk lemak. Lambat laun, penumpukan lemak tersebut akan bertambah dan membuat tubuh terlihat membesar alias gemuk. \nSelain akibat makanan tinggi kalori dan kurangnya melakukan olahraga, obesitas juga bisa terjadi karena: faktor keturunan (genetik), efek samping obat-obatan (antidepresan, obat antiepilepsi, kortikosteroid, dan diabetes), dan komplikasi dari penyakit tertentu (sindrom Cushing dan hipotiroidisme).
+                \n
+                \nObesitas di Indonesia
+                \nBerdasarkan data yang dihimpun oleh Organisasi Kesehatan Dunia (World Health Organization/WHO) pada tahun 2008, sekitar 4,8 persen dari total penduduk Indonesia mengalami obesitas. Diperkirakan, kondisi ini dialami oleh 6,9 persen pria dan 2,6 persen wanita dari seluruh jumlah penduduk.
+                \n
+                \nPengobatan obesitas
+                \nObesitas dapat ditangani sendiri dengan disiplin menerapkan pola makan sehat, seperti mengonsumsi makanan rendah lemak dan gula, serta berolahraga secara teratur. Olahraga yang dimaksud tidak perlu berat karena aktivitas berjalan pagi, bersepeda, bermain bulu tangkis, atau berenang sudah cukup, asalkan dilakukan secara rutin. Dianjurkan untuk melakukan olahraga 2,5-5 jam tiap minggu. \nPenanganan dari dokter dapat diberikan jika obesitas tidak berhasil diatasi meskipun sudah disiplin dalam berolahraga dan menerapkan pola makan sehat. Contoh penanganan dari dokter adalah pemberian obat yang dapat menurunkan penyerapan lemak di dalam saluran pencernaan. \nPada beberapa kasus, obesitas akan ditangani dengan operasi. Operasi biasanya hanya dilakukan jika tingkatan obesitas dinilai sangat parah sehingga dikhawatirkan dapat mengancam nyawa penderita. Tindakan operasi juga dipertimbangkan jika usaha-usaha menurunkan berat badan yang sudah dilakukan selama beberapa waktu tetap tidak membuahkan hasil. \nPerlu diingat bahwa penurunan berat badan yang dilakukan dengan usaha sendiri membutuhkan waktu yang tidak sebentar. Karena itu dibutuhkan kesabaran demi mencapai hasil yang diinginkan dan komitmen untuk mempertahankannya dalam jangka panjang.
+                \n
+                \nDitinjau oleh: dr. Marianti
+                \nSRC: https://www.alodokter.com/obesitas
+        </item>
+        <item>Keracunan makanan adalah kondisi yang muncul akibat mengonsumsi makanan yang telah terkontaminasi oleh organisme menular, seperti bakteri, virus, dan parasit. Kontaminasi dapat terjadi saat makanan sedang diproses atau dimasak dengan tidak benar. \nKontaminasi yang umumnya terjadi pada kasus keracunan makanan disebabkan oleh: Bakteri Campylobacter, Salmonella, Escherichia coli (E. coli), Listeria, Clostridium botulinum ( botulinum) dan Shigella, Norovirus dan rotavirus, Parasit Cryptosporidium, Entamoeba histolytica, dan Giardia. \nBerikut ini adalah beberapa contoh makanan yang mudah terkontaminasi jika tidak ditangani, disimpan, atau diolah dengan baik: Daging mentah, susu, makanan siap saji (seperti potongan daging matang, keju lembut, dan roti isi kemasan), makanan kalengan, telur mentah, kerang-kerangan dan makanan laut mentah.
+                \n
+                \nGejala Keracunan Makanan
+                \nGejala keracunan makanan bisa dimulai beberapa saat setelah makan hingga tiga hari setelah mengonsumsi makanan yang terkontaminasi. Gejala yang umumnya terjadi antara lain: Rasa mual dan muntah-muntah, mengalami diare, dan sakit atau kram perut.
+                \n
+                \nPenyebab Keracunan Makanan
+                \nBerikut ini beberapa hal yang bisa menyebabkan terjadinya keracunan makanan: Tidak menyimpan makanan dalam suhu yang tepat, misalnya tidak disimpan di kulkas, terutama produk daging dan produk olahan susu, tidak memasak makanan secara merata, terutama daging unggas-unggasan, burger, dan sosis. Meninggalkan makanan matang di ruangan dengan suhu hangat terlalu lama, mengonsumsi makanan yang sudah melewati masa kedaluarsa, kontaminasi silang, misalnya memakai pisau pemotong daging mentah untuk mengiris roti atau menyimpan daging mentah di atas makanan siap makan sehingga cairan dari daging menetes ke makanan di bawahnya, menggunakan talenan yang tidak dicuci sebelumnya, khususnya setelah penggunaan untuk memotong daging mentah, dan orang yang sakit atau dengan tangan yang kotor menyentuh makanan.
+                \n
+                \nPengobatan Keracunan Makanan
+                \nPada kebanyakan kasus, keracunan makanan tidak membutuhkan pengobatan khusus. Untuk meredakan gejala yang terjadi, Anda bisa beristirahat secukupnya dan minum banyak cairan karena jika mengalami dehidrasi, maka gejala yang terjadi akan bertambah parah dan masa pemulihan akan menjadi makin lama. \nOrang yang rentan mengalami dehidrasi sebaiknya diberikan cairan rehidrasi oral (oralit). Oralit berfungsi menggantikan glukosa, garam, dan mineral penting lain yang hilang akibat muntah dan diare. Untuk sementara waktu, sebaiknya Anda menghindari makanan biasa hingga merasa lebih baik. Anda bisa mengonsumsi makanan yang mudah dicerna seperti bubur. \nBerikut ini beberapa gejala terkait keracunan makanan yang mengharuskan Anda mendapat pengobatan: Anda mengalami demam tinggi, gejala yang dialami sangat parah dan tidak membaik hingga beberapa hari, sakit perut hebat, mengalami gejala dehidrasi parah, misalnya urine beraroma tidak enak, berwarna gelap, dan sangat sedikit, bayi Anda mengalami keracunan makanan, terjadi wabah keracunan makanan dan terkait dengan sumber kontaminasi tertentu, mengalami muntah-muntah lebih dari dua hari, diare yang berlangsung lebih dari tiga hari atau tinja bercampur darah, mengalami gejala seperti pandangan buram, otot lemas, atau sensasi geli di tangan.
+                \nKeracunan makanan juga bisa memberikan efek yang parah, terutama pada orang-orang dengan kekebalan tubuh yang lemah. Di antaranya adalah penderita diabetes, gagal ginjal, gagal jantung, HIV, kanker, mereka yang berusia di atas 65 tahun, dan bayi.
+                \n
+                \nDitinjau oleh: dr. Marianti
+                \nSRC: https://www.alodokter.com/obesitas
+        </item>
+        <item>Manfaat Minum Air Putih untuk Kesehatan
+                \n
+                \nManfaat Minum Air Putih untuk Kesehatan – Air mineral sudah dipercaya sejak dahulu sebagai salahsatu minuman yang dapat menyehatkan tubuh. Karena air putih mineral dapat diserap tubuh dengan mudah sehingga mampu memberikan manfaat yang besar bagi seluruh bagian tubuh. Selain dapat menghindarkan tubuh dari terjadinya dehidrasi dan bisa menghilangkan dahaga, air putih juga memiliki manfaat yang baik bagi kulit dan pencernaan. Seperti yang diketahui bahwa didalam tubuh manusia 55% – 78% merupakan air namun tentu saja persentase tersebut tergantung dari ukuran dan berat badan.
+                \nUntuk menghindari dari terjadinya dehidrasi tubuh manusia membutuhkan air dalam jumlah tertentu, beberapa faktor yang mempengaruhi kebutuhan air tersebut diantaranya dari aktivitas, kelembaban, suhu dan beberapa faktor lainnya. Bahkan ada yang mempercayai bahwa setiap orang membutuhkan air sekitar 8 gelas/hari, namun dari salahsatu penelitian yang dilakukan pada tahun 2008 yang ditunjukan oleh univeristas pennsylvania memaparkan bahwa dengan mengkonsumsi 8 gelas/hari belum terbukti dapat memberikan efek sehat pada tubuh. Bahkan jika dikonsumsi terlalu banyak, air putih dapat mengakibatkan hipotermia dimana zat natrium dalam tubuh menjadi terlalu encer. Jadi sesuaikan dengan berat badan dan juga aktivitas yang Anda lakukan sehari-hari.
+                \n
+                \nKhasiat Minum Air Putih bagi Kesehatan
+                \nNamun jika dikonsumsi dalam jumlah yang wajar, dalam arti tidak berlebih dan tidak kurang maka tubuh akan mendapatkan asupan air yang cukup sehingga tubuh dapat menjadi lebih sehat. Dibawah ini merupkan beberapa manfaat dan khasiat air putih jika dikonsumsi setelah bangun tidur:
+                \n1. Menghilangkan Racun
+                \nDengan mengkonsumsi air setiap pagi hari dapat meringankan fungsi ginjal selain itu dapat mengeluarkan racun serta zat tak bermanfaat lainnya (baca:limbah) dalam tubuh seseorang. Ini dikarenakan pda waktu malam tubuh tidak mendapatkan asupan cairan yang memadai.
+                \n2. Meningkatkan Energi
+                \nManfaat Minum Air Putih selanjutnya yaitu dapat meningkatkan metabolisme dalam tubuh sehingga membantu seseorang dalam meningkatkan energi didalam tubuh dan juga membuat orang yang mengkonsumsinya menjadi lebih segar. Ini disebabkan karena dalam setiap aktivitas yang dijalani manusia memerlukan energi yang optimal, apabila tubuh mengalami dehidrasii maka tubuh seseorang dapat mudah lelah dan juga lesu sehingga aktivitas tidak berjalan dengan efisien.
+                \n3. Mengurangi Berat Badan
+                \nDengan mengkonsumsi air putih ketika sedang dalam keadaan lapar dapat menurunkan nafsu makan sehingga bagi Anda yang sedang menjalankan program penurunan berat badan mengkonsumsi air ketika lapar dengan batas yang wajar dapat membantu menurunkan nafsu makan Anda.
+                \n4. Mengurangi Keriput
+                \nManfaat air putih lainnya yaitu dapat mengurangi keriput. Dengan mengkonsumsi air putih elastisitas kulit tubuh dapat ditingkatkan kembali, sehingga kulit terhindari dari masalah-masalah seperti bintik-bintik, Jerawat, keriput dan masalah kulit lainnya.
+                \n5. Mencerahkan Kulit
+                \nSalahsatu manfaat dari mengkonsumsi air putih mineral selanjutnya yaitu dapat mencerahkan kulit. Karena dengan minum air putih dapat mendetoksifikasi tubuh sehingga kulit dapat bersih dari jerawat dan lemak lainnya yang berada pada kulit Anda.
+                \n
+                \nBeberapa manfaat lain dari air putih:
+                \na. Air putih juga bermanfaat untuk mengendalikan asupan kalori didalam tubuh. Sehingga untuk mencegah terjadinya peningkatan berat badan daripada mengkonsumsi minuman yang mengandung kalori tinggi lebih baik mencegahnya dengan mengkonsumsi air putih.
+                \nb. Air putih bermanfaat untuk memberikan pelumas pada bagian sendi-sendi agar lebih lentur, selain itu membberikan energi pada bagian otot. Karena ketika cairan dalam tubuh tidak seimbang maka bisa memicu terjadinya kelelahan pada bagian otot.
+                \nc. Air putih bisa menjaga kadar cairan tubuh agar tidak mengalami gangguan pada fungsi pencernaan ketika terjadinya penyerapakan sari-sari makanan, ginjal sekaligus mempertahankan suhu tubuh agar tetap normal.
+                \nd. Menjaga saraf tulang belakang dan juga jaringan sensitif pada bagian-bagian tubuh lainnya.
+                \ne. Mengkonsumsi air putih akan membantu dalam proses pembuangan sisa-sisa makanan dan juga minuman melalui keringat, urine dan kotoran.
+                \n
+                \nManfaat dan Khasiat Minum Air Putih
+                \nSelain dengan minum air putih, tentu saja faktor kesehatan masih deipengaruhi oleh banyak faktor seperti olahraga teratur dan tetap menjaga gizi seimbang sehingga apabila faktor-faktor kesehatan itu diperhatikan dengan baik tubuh akan tetap sehat dan kebal dari  berabagai bakteri dan virus penyebab penyakit yang menyerang tubuh. Sleain itu untuk orang yang terkena dehidrasi atau kekurangan cairan biasanya mengeluarkan urin yang pekat, sementara jika dalam keadaan yang sehat urin berwarna jernih.
+                \n
+                \nSRC: http://hariansehat.com/manfaat-minum-air-putih-untuk-kesehatan/
+        </item>
+    </string-array>
+
+    <string-array name="wikiImages">
+        <item>@drawable/serangan_kekebalan</item>
+        <item>@drawable/diet_berdasarkan_goldar</item>
+        <item>@drawable/pola_makan_yang_bisa_bahayakan_kesehatan_tubuhmu_apa_saja</item>
+        <item>@drawable/sajian_4s5s</item>
+        <item>@drawable/alergi_makanan_alodokter</item>
+        <item>@drawable/obesitas_alodokter</item>
+        <item>@drawable/keracunan_makanan_alodokter</item>
+        <item>@drawable/manfaat_air_putih</item>
     </string-array>
 </resources>
