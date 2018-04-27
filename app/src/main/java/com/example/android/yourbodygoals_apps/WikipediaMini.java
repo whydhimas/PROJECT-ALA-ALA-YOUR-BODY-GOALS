@@ -1,8 +1,5 @@
 package com.example.android.yourbodygoals_apps;
 
-
-import java.util.ArrayList;
-
 /**
  * Created by Yosafat Dhimas on 22/04/2018.
  */

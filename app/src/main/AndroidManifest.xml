@@ -73,6 +73,14 @@
                 android:value=".MenuWikipediaMini"/>
         </activity>
         <activity
+            android:name=".JenisOlahragaDetail"
+            android:label="JENIS OLAH RAGA DETAIL"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuJenisOlahraga"/>
+        </activity>
+        <activity
             android:name=".MenuRiwayatPenggunaan"
             android:label="RIWAYAT PENGGUNAAN APP."
             android:theme="@style/AppTheme">

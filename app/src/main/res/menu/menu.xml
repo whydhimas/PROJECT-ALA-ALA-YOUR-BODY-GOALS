@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/copy" android:title="Copy article"></item>
+    <item android:id="@+id/sizeHigh" android:title="Text size high"></item>
+    <item android:id="@+id/sizeNormal" android:title="Text size normal"></item>
+    <item android:id="@+id/sizeSmall" android:title="Text size small"></item>
+    <item android:id="@+id/share" android:title="Share article"></item>
+</menu>

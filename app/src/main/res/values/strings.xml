@@ -19,7 +19,6 @@
         <item>Keracunan Makanan</item>
         <item>Manfaat Air Putih</item>
     </string-array>
-
     <string-array name="wikipedia_desc">
         <item>Mengapa Kita Sakit?
                 \nDi zaman “modern” ini tanpa kita sadari tubuh kita sudah tercemar racun (toksin) dari makanan yang kita konsumsi sehari – hari. Semakin lama toksin tersebut berkumpul dan menumpuk di dalam tubuh.Toksin bukan saja menghancurkan fungsi-fungsi pencernaan kita yang normal, tetapi itu juga dapat mengikuti peredaran darah ke berbagai bagian organ tubuh kita, lalu merusak sistem sirkulasi (pembuluh-pembuluh darah), organ-organ penyaring (hati dan ginjal), dan organ-organ pengeluaran/ekskresi, dan akhirnya kita jatuh sakit.Sakit adalah akibat kegagalan tubuh kita menyingkirkan bahan buangan, lendir (mucus), serta timbunan racun (toksin) yang menghalangi fungsi-fungsi normal tubuh manusia, sehingga kekebalan tubuh menurun.
@@ -188,7 +187,6 @@
                 \nSRC: http://hariansehat.com/manfaat-minum-air-putih-untuk-kesehatan/
         </item>
     </string-array>
-
     <string-array name="wikiImages">
         <item>@drawable/serangan_kekebalan</item>
         <item>@drawable/diet_berdasarkan_goldar</item>
@@ -199,4 +197,30 @@
         <item>@drawable/keracunan_makanan_alodokter</item>
         <item>@drawable/manfaat_air_putih</item>
     </string-array>
+
+    <string-array name="jenis_olahraga_judul">
+        <item>Fitness</item>
+        <item>Jogging</item>
+        <item>Senam</item>
+        <item>Calisthenics</item>
+        <item>Soccer</item>
+        <item>Softball</item>
+    </string-array>
+    <string-array name="jenis_olahraga_desc">
+        <item>Tempat dimana anda bisa Fitness</item>
+        <item>Tempat dimana anda bisa Jogging</item>
+        <item>Tempat dimana anda bisa Senam</item>
+        <item>Tempat dimana anda bisa Calisthenics</item>
+        <item>Tempat dimana anda bisa Soccer</item>
+        <item>Tempat dimana anda bisa Softball</item>
+    </string-array>
+    <string-array name="jenis_olahraga_images">
+        <item>@drawable/fitness</item>
+        <item>@drawable/jogging</item>
+        <item>@drawable/senam</item>
+        <item>@drawable/calisthenics</item>
+        <item>@drawable/soccer</item>
+        <item>@drawable/softball3</item>
+    </string-array>
+
 </resources>

@@ -67,9 +67,9 @@ public class MainActivity extends AppCompatActivity {
         mMenuJenisOlahraga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(MainActivity.this, MenuJenisOlahraga.class);
-                //startActivity(intent);
-                buildDialog(0, "Menu under construction \nYou are running ver.01 BETA");
+                Intent intent = new Intent(MainActivity.this, MenuJenisOlahraga.class);
+                startActivity(intent);
+                //buildDialog(0, "Menu under construction \nYou are running ver.01 BETA");
             }
 
         });
