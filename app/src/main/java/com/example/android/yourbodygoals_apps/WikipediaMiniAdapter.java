@@ -66,4 +66,10 @@ public class WikipediaMiniAdapter extends RecyclerView.Adapter<WikipediaMiniAdap
             mContext.startActivity(detailInt);
         }
     }
+
+    public void setFilter(ArrayList<WikipediaMini> newList){
+        mWikipediaData = new ArrayList<>();
+        mWikipediaData.addAll(newList);
+        notifyDataSetChanged();
+    }
 }

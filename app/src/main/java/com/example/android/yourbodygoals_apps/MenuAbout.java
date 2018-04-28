@@ -1,5 +1,6 @@
 package com.example.android.yourbodygoals_apps;
 
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.support.design.widget.TabLayout;

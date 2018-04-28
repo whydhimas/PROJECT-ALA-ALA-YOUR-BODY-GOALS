@@ -6,8 +6,11 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -66,5 +69,29 @@ public class JenisOlahragaDetail extends AppCompatActivity{
         joTitle.setText(getIntent().getStringExtra("title2"));
         joDesc.setText(getIntent().getStringExtra("desc2"));
         Glide.with(this).load(getIntent().getIntExtra("image_resource2",0)).into(joPict);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu4, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId()==R.id.ketentuanMaps) {
+            buildDialog(0, "Lokasi olah raga akan ditampilkan sesuai dengan GPS anda");
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void buildDialog(int animationSource, String type) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Ketentuan");
+        builder.setMessage(type);
+        builder.setNegativeButton("OK", null);
+        AlertDialog dialog = builder.create();
+        dialog.getWindow().getAttributes().windowAnimations = animationSource;
+        dialog.show();
     }
 }

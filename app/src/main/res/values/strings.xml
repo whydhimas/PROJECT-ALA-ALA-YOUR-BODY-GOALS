@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">YOUR BODY GOALS</string>
-    <string name="very_severely_underweight">Berat badan Anda sangat amat kurus,\nAnda harus banyak makan makanan berkarbohidrat \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="severely_underweight">Berat badan Anda sangat kurus,\nAnda harus banyak makan makanan berkarbohidrat \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="underweight">Berat badan Anda kurus,\nAnda harus banyak makan makanan berkarbohidrat \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="normal">Berat badan Anda normal,\npertahankan dengan olah raga yang teratur dan makan makanan bergizi \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="overweight">Anda kelebihan berat badan,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="obese_class_i">Anda obesitas kelas I,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="obese_class_ii">Anda obesitas kelas II,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="obese_class_iii">Anda obesitas kelas III,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
+    <string name="very_severely_underweight">Berat badan Anda sangat amat kurus,\nAnda harus banyak makan makanan berkarbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
+    <string name="severely_underweight">Berat badan Anda sangat kurus,\nAnda harus banyak makan makanan berkarbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
+    <string name="underweight">Berat badan Anda kurus,\nAnda harus banyak makan makanan berkarbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
+    <string name="normal">Berat badan Anda normal,\npertahankan dengan olah raga yang teratur dan makan makanan bergizi \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
+    <string name="overweight">Anda kelebihan berat badan,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
+    <string name="obese_class_i">Anda obesitas kelas I,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
+    <string name="obese_class_ii">Anda obesitas kelas II,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
+    <string name="obese_class_iii">Anda obesitas kelas III,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
 
     <string-array name="wikipedia_judul">
         <item>Makanan dan Kesehatan</item>
@@ -205,14 +205,18 @@
         <item>Calisthenics</item>
         <item>Soccer</item>
         <item>Softball</item>
+        <item>Renang</item>
+        <item>Panahan</item>
     </string-array>
     <string-array name="jenis_olahraga_desc">
-        <item>Tempat dimana anda bisa Fitness</item>
-        <item>Tempat dimana anda bisa Jogging</item>
-        <item>Tempat dimana anda bisa Senam</item>
-        <item>Tempat dimana anda bisa Calisthenics</item>
-        <item>Tempat dimana anda bisa Soccer</item>
-        <item>Tempat dimana anda bisa Softball</item>
+        <item>Tempat dimana anda bisa melakukan Fitness</item>
+        <item>Tempat dimana anda bisa melakukan Jogging</item>
+        <item>Tempat dimana anda bisa melakukan Senam</item>
+        <item>Tempat dimana anda bisa melakukan Calisthenics</item>
+        <item>Tempat dimana anda bisa melakukan Soccer</item>
+        <item>Tempat dimana anda bisa melakukan Softball</item>
+        <item>Tempat dimana anda bisa melakukan Renang</item>
+        <item>Tempat dimana anda bisa melakukan Panahan</item>
     </string-array>
     <string-array name="jenis_olahraga_images">
         <item>@drawable/fitness</item>
@@ -221,6 +225,8 @@
         <item>@drawable/calisthenics</item>
         <item>@drawable/soccer</item>
         <item>@drawable/softball3</item>
+        <item>@drawable/renang</item>
+        <item>@drawable/panahan</item>
     </string-array>
 
 </resources>

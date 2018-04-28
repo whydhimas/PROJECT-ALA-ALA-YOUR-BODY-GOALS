@@ -3,99 +3,306 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/bground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     tools:context="com.example.android.yourbodygoals_apps.MainActivity">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    <ImageView
-        android:id="@+id/img_splash"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-150dp"
-        android:src="@drawable/logo_ybg2" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/bground_new"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/img_calculator"
-        android:layout_width="150sp"
-        android:layout_height="120sp"
-        android:layout_alignBottom="@+id/img_splash"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="31dp"
-        android:layout_marginLeft="21dp"
-        android:layout_marginStart="21dp"
-        android:src="@drawable/menu1" />
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+                <ImageView
+                    android:id="@+id/img_logo"
+                    android:layout_width="200dp"
+                    android:layout_height="170dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/logo_ybg3" />
+        </RelativeLayout>
+        
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="0dp">
 
-    <ImageView
-        android:layout_width="150sp"
-        android:layout_height="120sp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/img_calculator"
-        android:layout_marginRight="21dp"
-        android:src="@drawable/menu2"
-        android:id="@+id/img_makanan_n_minuman" />
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
 
-    <ImageView
-        android:layout_width="150sp"
-        android:layout_height="120sp"
-        android:layout_alignLeft="@+id/img_makanan_n_minuman"
-        android:layout_alignStart="@+id/img_makanan_n_minuman"
-        android:layout_below="@+id/img_makanan_n_minuman"
-        android:layout_marginTop="12dp"
-        android:src="@drawable/menu4"
-        android:id="@+id/img_wikipedia_mini" />
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/img_jenis_olahraga"
-            android:layout_width="150sp"
-            android:layout_height="120sp"
-            android:layout_alignLeft="@+id/img_calculator"
-            android:layout_alignStart="@+id/img_calculator"
-            android:layout_alignTop="@+id/img_wikipedia_mini"
-            android:src="@drawable/menu3" />
+                                <ImageView
+                                    android:src="@drawable/menu_bmi"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-    <ImageView
-        android:id="@+id/img_riwayat"
-        android:layout_width="150sp"
-        android:layout_height="120sp"
-        android:layout_alignLeft="@+id/img_jenis_olahraga"
-        android:layout_alignStart="@+id/img_jenis_olahraga"
-        android:layout_below="@+id/img_jenis_olahraga"
-        android:layout_marginTop="11dp"
-        android:src="@drawable/menu5" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="BMI CALCULATOR"
+                                    android:textColor="#000000"/>
+                        </LinearLayout>
+                </android.support.v7.widget.CardView>
 
-    <ImageView
-        android:id="@+id/img_about"
-        android:layout_width="150sp"
-        android:layout_height="120sp"
-        android:layout_alignLeft="@+id/img_wikipedia_mini"
-        android:layout_alignStart="@+id/img_wikipedia_mini"
-        android:layout_alignTop="@+id/img_riwayat"
-        android:src="@drawable/menu6" />
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
 
-    <TextView
-        android:id="@+id/tv_logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="530dp"
-        android:layout_centerHorizontal="true"
-        android:text="LOGOUT"
-        android:textColor="#F0F0F0" />
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/iv_help"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/tv_logout"
-        android:layout_alignEnd="@+id/img_about"
-        android:layout_alignRight="@+id/img_about"
-        android:src="@drawable/ic_help" />
-    </RelativeLayout>
+                                <ImageView
+                                    android:src="@drawable/menu_makananminuman"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="MAKANAN DAN MINUMAN SEHAT"
+                                    android:textColor="#000000"/>
+                        </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:src="@drawable/menu_jenisolahraga"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="JENIS OLAH RAGA"
+                                    android:textColor="#000000"/>
+                        </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:src="@drawable/menu_wikimini"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="WIKIPEDIA MINI KESEHATAN"
+                                    android:textColor="#000000"/>
+                        </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:src="@drawable/menu_riwayatapp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="RIWAYAT PENGGUNAAN APPS."
+                                    android:textColor="#000000"/>
+                        </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:src="@drawable/menu_aboutapp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="TENTANG APLIKASI INI"
+                                    android:textColor="#000000"/>
+                        </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:src="@drawable/ic_logout"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="LOGOUT"
+                                    android:textColor="#000000"/>
+                        </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="8dp">
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:src="@drawable/ic_helps"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="HELP"
+                                    android:textColor="#000000"/>
+                        </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+        </LinearLayout>
 </ScrollView>

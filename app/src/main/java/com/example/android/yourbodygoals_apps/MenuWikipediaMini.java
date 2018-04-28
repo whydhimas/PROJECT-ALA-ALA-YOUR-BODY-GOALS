@@ -3,17 +3,20 @@ package com.example.android.yourbodygoals_apps;
 import android.content.res.TypedArray;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 
 import java.util.ArrayList;
 
-public class MenuWikipediaMini extends AppCompatActivity {
+public class MenuWikipediaMini extends AppCompatActivity implements SearchView.OnQueryTextListener {
     private RecyclerView mRecyclerView;
     private ArrayList<WikipediaMini> mWikiMini;
     private WikipediaMiniAdapter mAdapter;
@@ -53,5 +56,34 @@ public class MenuWikipediaMini extends AppCompatActivity {
 
         mineralImageResources.recycle();
         mAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu3, menu);
+        MenuItem menuItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(menuItem);
+        searchView.setOnQueryTextListener(this);
+        return true;
+    }
+
+    @Override
+    public boolean onQueryTextSubmit(String query) {
+        return false;
+    }
+
+    @Override
+    public boolean onQueryTextChange(String newText) {
+
+        newText = newText.toLowerCase();
+        ArrayList<WikipediaMini> newList = new ArrayList<>();
+        for(WikipediaMini wikipediaMini: mWikiMini) {
+            String name = wikipediaMini.getJudul().toLowerCase();
+            if (name.contains(newText)){
+                newList.add(wikipediaMini);
+            }
+        }
+        mAdapter.setFilter(newList);
+        return false;
     }
 }
