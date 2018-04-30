@@ -209,14 +209,38 @@
         <item>Panahan</item>
     </string-array>
     <string-array name="jenis_olahraga_desc">
-        <item>Tempat dimana anda bisa melakukan Fitness</item>
-        <item>Tempat dimana anda bisa melakukan Jogging</item>
-        <item>Tempat dimana anda bisa melakukan Senam</item>
-        <item>Tempat dimana anda bisa melakukan Calisthenics</item>
-        <item>Tempat dimana anda bisa melakukan Soccer</item>
-        <item>Tempat dimana anda bisa melakukan Softball</item>
-        <item>Tempat dimana anda bisa melakukan Renang</item>
-        <item>Tempat dimana anda bisa melakukan Panahan</item>
+        <item>Fitness adalah kata dalam bahasa Inggris yang berarti "kebugaran", suatu kondisi tubuh yang sehat dan kuat.
+            \n
+            \nTempat dimana anda bisa melakukan Fitness
+        </item>
+        <item>Jogging adalah jalan cepat atau lari kecil untuk menyerap oksigen dan membuat fungsi jantung agar bekerja lebih cepat dari biasanya. Jogging biasa dilakukan dipagi hari atau sore menjelang mandi. Jogging akan membuka aura tubuh sehingga suasana alam sekitar merasuk kedalam diri dan aman mempertajam perasaan.
+            \n
+            \nTempat dimana anda bisa melakukan Jogging
+        </item>
+        <item>Senam merupakan suatu cabang olahraga yang melibatkan performa gerakan yang membutuhkan kekuatan, kecepatan dan keserasian gerakan fisik yang teratur.
+            \n
+            \nTempat dimana anda bisa melakukan Senam
+        </item>
+        <item>Calisthenics adalah bentuk latihan dengan cara memaksimalkan penggunaan berat tubuh kita sendiri dalam proses membentuk otot.
+            \n
+            \nTempat dimana anda bisa melakukan Calisthenics
+        </item>
+        <item>Soccer adalah istilah umum di Amerika Serikat untuk nama sepak bola (football kalau di Eropa) yang merupakan olah raga populer di dunia.
+            \n
+            \nTempat dimana anda bisa melakukan Soccer
+        </item>
+        <item>Softball merupakan perkembangan dari olahraga sejenis yaitu bisbol atau hardball yang berasal dari Kota Chicago, US.
+            \n
+            \nTempat dimana anda bisa melakukan Softball
+        </item>
+        <item>Renang adalah olahraga yang melombakan kecepatan atlet renang dalam berenang. Gaya renang yang diperlombakan biasanya adalah gaya bebas, gaya kupu-kupu, gaya punggung, dan gaya dada.
+            \n
+            \nTempat dimana anda bisa melakukan Renang
+        </item>
+        <item>Panahan (Inggris:Archery) adalah suatu kegiatan menggunakan busur panah untuk menembakkan anak panah. Bukti-bukti menunjukkan bahwa sejarah panahan telah dimulai sejak 5.000 tahun yang lalu yang awalnya digunakan untuk berburu dan kemudian berkembang sebagai senjata dalam pertempuran dan kemudian sebagai olahraga ketepatan. Seseorang yang gemar atau merupakan ahli dalam memanah disebut juga sebagai pemanah.
+            \n
+            \nTempat dimana anda bisa melakukan Panahan
+        </item>
     </string-array>
     <string-array name="jenis_olahraga_images">
         <item>@drawable/fitness</item>

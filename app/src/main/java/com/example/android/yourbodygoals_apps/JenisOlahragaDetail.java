@@ -74,6 +74,7 @@ public class JenisOlahragaDetail extends AppCompatActivity{
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu4, menu);
+        getMenuInflater().inflate(R.menu.menu5, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -81,6 +82,10 @@ public class JenisOlahragaDetail extends AppCompatActivity{
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId()==R.id.ketentuanMaps) {
             buildDialog(0, "Lokasi olah raga akan ditampilkan sesuai dengan GPS anda");
+        }
+        if(item.getItemId()==R.id.menuitem_home) {
+            Intent intent = new Intent(JenisOlahragaDetail.this, MainActivity.class);
+            startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }

@@ -59,6 +59,7 @@ public class WikipediaMiniDetail extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
+        getMenuInflater().inflate(R.menu.menu5, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -93,6 +94,11 @@ public class WikipediaMiniDetail extends AppCompatActivity {
             intent.putExtra(Intent.EXTRA_TEXT,shareBody);
             intent.putExtra(Intent.EXTRA_SUBJECT,shareSub);
             startActivity(Intent.createChooser(intent, "Share the article"));
+        }
+
+        if(item.getItemId()==R.id.menuitem_home) {
+            Intent intent = new Intent(WikipediaMiniDetail.this, MainActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
     GridLayout mainGrid;
 
+    //Context mContex;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,12 +67,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void setSingleEvent(GridLayout mainGrid) {
         for (int i = 0; i < mainGrid.getChildCount(); i++){
-            CardView cardView = (CardView) mainGrid.getChildAt(i);
+            final CardView cardView = (CardView) mainGrid.getChildAt(i);
             final int theFinal = i;
 
             cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    //cardView.setCardBackgroundColor(mContex.getResources().getColor(R.color.buttonPressed));
                     if (theFinal == 0){
                         Intent intent = new Intent(MainActivity.this, MenuCalculator.class);
                         startActivity(intent);
