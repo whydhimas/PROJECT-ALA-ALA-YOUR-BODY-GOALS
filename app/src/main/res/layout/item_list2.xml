@@ -21,6 +21,7 @@
         android:padding="8dp"
         android:text="Judul"
         android:textColor="#000000"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
 
 </RelativeLayout>

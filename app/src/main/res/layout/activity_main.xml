@@ -54,7 +54,8 @@
                             android:layout_margin="16dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless">
 
                                 <ImageView
                                     android:src="@drawable/menu_bmi"
@@ -87,7 +88,8 @@
                             android:layout_margin="16dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless">
 
                                 <ImageView
                                     android:src="@drawable/menu_makananminuman"
@@ -120,7 +122,8 @@
                             android:layout_margin="16dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless">
 
                                 <ImageView
                                     android:src="@drawable/menu_jenisolahraga"
@@ -153,7 +156,8 @@
                             android:layout_margin="16dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless">
 
                                 <ImageView
                                     android:src="@drawable/menu_wikimini"
@@ -186,7 +190,8 @@
                             android:layout_margin="16dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless">
 
                                 <ImageView
                                     android:src="@drawable/menu_riwayatapp"
@@ -219,7 +224,8 @@
                             android:layout_margin="16dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless">
 
                                 <ImageView
                                     android:src="@drawable/menu_aboutapp"
@@ -252,7 +258,8 @@
                             android:layout_margin="16dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless">
 
                                 <ImageView
                                     android:src="@drawable/menu_logout"
@@ -285,7 +292,8 @@
                             android:layout_margin="16dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless">
 
                                 <ImageView
                                     android:src="@drawable/menu_help"
