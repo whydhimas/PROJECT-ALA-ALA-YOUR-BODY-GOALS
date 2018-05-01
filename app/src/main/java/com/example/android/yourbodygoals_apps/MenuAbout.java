@@ -12,7 +12,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-public class MenuAbout extends AppCompatActivity implements TabOverall.OnFragmentInteractionListener, TabAnggota.OnFragmentInteractionListener{
+public class MenuAbout extends AppCompatActivity implements TabOverall.OnFragmentInteractionListener, TabAnggota.OnFragmentInteractionListener, TabProfile.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class MenuAbout extends AppCompatActivity implements TabOverall.OnFragmen
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
         tabLayout.addTab(tabLayout.newTab().setText("OVERALL THE APP"));
         tabLayout.addTab(tabLayout.newTab().setText("DEVELOPER"));
+        tabLayout.addTab(tabLayout.newTab().setText("YOUR PROFILE"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (android.support.v4.view.ViewPager) findViewById(R.id.pager);

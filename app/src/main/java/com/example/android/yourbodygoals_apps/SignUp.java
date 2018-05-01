@@ -17,6 +17,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.firebase.client.Firebase;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class SignUp extends AppCompatActivity {
     EditText mFullName;
@@ -69,18 +71,16 @@ public class SignUp extends AppCompatActivity {
                 mStringData3 = mWeight.getText().toString();
                 mStringData4 = mHeight.getText().toString();
 
-                Firebase mNewChild1 = mFirebase.child("FullName");
-                mNewChild1.setValue(mStringData1);
-                Firebase mNewChild2 = mFirebase.child("Age");
-                mNewChild2.setValue(mStringData2);
-                Firebase mNewChild3 = mFirebase.child("Weight");
-                mNewChild3.setValue(mStringData3);
-                Firebase mNewChild4 = mFirebase.child("Height");
-                mNewChild4.setValue(mStringData4);
+                DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Login");
+                ref.child("Fullname").setValue(mStringData1);
+                ref.child("Age").setValue(mStringData2);
+                ref.child("Weight").setValue(mStringData3);
+                ref.child("Height").setValue(mStringData4);
 
                 Intent intent = new Intent(SignUp.this, MainActivity.class);
                 startActivity(intent);
                 Toast.makeText(SignUp.this, "Data Anda telah tersimpan, "+mStringData1, Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
     }

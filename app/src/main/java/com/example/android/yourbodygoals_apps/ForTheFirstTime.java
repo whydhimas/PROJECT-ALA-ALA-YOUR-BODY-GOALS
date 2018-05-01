@@ -30,6 +30,7 @@ public class ForTheFirstTime extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(ForTheFirstTime.this, SignUp.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

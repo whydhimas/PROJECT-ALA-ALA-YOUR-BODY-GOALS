@@ -22,22 +22,12 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.hitomi.cmlibrary.CircleMenu;
-import com.hitomi.cmlibrary.OnMenuSelectedListener;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView mMenuCalculator;
-    ImageView mMenuMakananMinuman;
-    ImageView mMenuJenisOlahraga;
-    ImageView mMenuWikipediaMini;
-    ImageView mMenuRiwayat;
-    ImageView mMenuTentangApp;
-    ImageView mMenuHelp;
-    TextView mLogout;
 
     GridLayout mainGrid;
-
-    //Context mContex;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,15 +39,6 @@ public class MainActivity extends AppCompatActivity {
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.setStatusBarColor(getResources().getColor(R.color.GreenDark));
         }
-
-        //mMenuCalculator = (ImageView) findViewById(R.id.img_calculator);
-        //mMenuMakananMinuman = (ImageView) findViewById(R.id.img_makanan_n_minuman);
-        //mMenuJenisOlahraga = (ImageView) findViewById(R.id.img_jenis_olahraga);
-        //mMenuWikipediaMini = (ImageView) findViewById(R.id.img_wikipedia_mini);
-        //mMenuRiwayat = (ImageView) findViewById(R.id.img_riwayat);
-        //mMenuTentangApp = (ImageView) findViewById(R.id.img_about);
-        //mMenuHelp = (ImageView) findViewById(R.id.iv_help);
-        //mLogout = (TextView) findViewById(R.id.tv_logout);
 
         mainGrid = (GridLayout) findViewById(R.id.mainGrid);
 
@@ -106,6 +87,12 @@ public class MainActivity extends AppCompatActivity {
                         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
+                                DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Login");
+                                ref.child("Fullname").removeValue();
+                                ref.child("Age").removeValue();
+                                ref.child("Weight").removeValue();
+                                ref.child("Height").removeValue();
+
                                 Intent myIntent = new Intent(MainActivity.this, SignUp.class);
                                 myIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);// clear back stack
                                 startActivity(myIntent);

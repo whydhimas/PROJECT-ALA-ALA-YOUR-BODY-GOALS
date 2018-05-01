@@ -33,6 +33,8 @@ public class MenuMakananMinuman extends AppCompatActivity {
         mBtnShowMakananMinuman = (Button) findViewById(R.id.btn_show_makanan_minuman);
         mResultMakananMinuman = (TextView) findViewById(R.id.tv_result_makanan_minuman);
 
+        mAgeMakananMinuman.getText().toString();
+
         mBtnShowMakananMinuman.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
