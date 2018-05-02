@@ -8,15 +8,8 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="-150dp"
-        android:src="@drawable/logo_ybg" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"
-        android:text="ver.01 BETA"/>
+        android:layout_marginTop="-70dp"
+        android:src="@drawable/logo_ybg4" />
 
     <TextView
         android:layout_width="wrap_content"

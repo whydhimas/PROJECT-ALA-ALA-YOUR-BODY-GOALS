@@ -20,7 +20,7 @@ public class MenuAbout extends AppCompatActivity implements TabOverall.OnFragmen
         setContentView(R.layout.activity_menu_about);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("OVERALL THE APP"));
+        tabLayout.addTab(tabLayout.newTab().setText("GENERAL"));
         tabLayout.addTab(tabLayout.newTab().setText("DEVELOPER"));
         tabLayout.addTab(tabLayout.newTab().setText("YOUR PROFILE"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);

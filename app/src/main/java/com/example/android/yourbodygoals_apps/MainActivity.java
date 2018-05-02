@@ -1,10 +1,14 @@
 package com.example.android.yourbodygoals_apps;
 
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,7 +30,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
-
     GridLayout mainGrid;
 
     @Override
@@ -44,6 +47,27 @@ public class MainActivity extends AppCompatActivity {
 
         setSingleEvent(mainGrid);
 
+        //iki nggawe Notification ya mas
+        String CHANNEL_ID = "my_channel_id";
+        NotificationCompat.Builder mBuilder =
+                new NotificationCompat.Builder(MainActivity.this, CHANNEL_ID)
+                        .setSmallIcon(R.drawable.ic_ybg)
+                        .setContentTitle("Welcome to YOUR BODY GOALS APP")
+                        .setContentText("Your are running ver.01 BETA");
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+
+        //digunakan ketika notifikasi diklik yang mengarahkan ke activity MainActivity
+        TaskStackBuilder stackBuilder = TaskStackBuilder.create(MainActivity.this);
+        stackBuilder.addParentStack(MainActivity.class);
+        stackBuilder.addNextIntent(intent);
+
+        PendingIntent pendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
+
+        mBuilder.setContentIntent(pendingIntent);
+
+        //men-trigger notifikasi
+        NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        mNotificationManager.notify(001, mBuilder.build());
     }
 
     private void setSingleEvent(GridLayout mainGrid) {

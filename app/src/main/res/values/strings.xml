@@ -207,6 +207,11 @@
         <item>Softball</item>
         <item>Renang</item>
         <item>Panahan</item>
+        <item>Golf</item>
+        <item>Futsal</item>
+        <item>Badminton</item>
+        <item>Tennis</item>
+        <item>Vollyball</item>
     </string-array>
     <string-array name="jenis_olahraga_desc">
         <item>Fitness adalah kata dalam bahasa Inggris yang berarti "kebugaran", suatu kondisi tubuh yang sehat dan kuat.
@@ -241,6 +246,26 @@
             \n
             \nTempat dimana anda bisa melakukan Panahan
         </item>
+        <item>Golf adalah permainan luar ruang yang dimainkan secara perorangan atau tim yang berlomba memasukkan bola ke dalam lubang-lubang yang ada di lapangan dengan jumlah pukulan tersedikit mungkin. Bola golf dipukul dengan menggunakan satu set tongkat pemukul yang disebut klab (stik golf). Golf adalah salah satu dari permainan yang tidak memiliki lapangan permainan yang standar, melainkan dimainkan di padang golf yang masing-masing memiliki desain unik, dan biasanya terdiri dari 9 atau 18 hole (lubang). Aturan utama dalam golf adalah "memainkan sebuah bola dengan stik golf dari daerah tee (teeing ground) ke dalam lubang dengan satu pukulan atau beberapa pukulan berikutnya sesuai dengan Aturan".
+            \n
+            \nTempat dimana anda bisa melakukan Golf
+        </item>
+        <item>Futsal adalah permainan bola yang dimainkan oleh dua tim, yang masing-masing beranggotakan lima orang. Tujuannya adalah memasukkan bola ke gawang lawan, dengan memanipulasi bola dengan kaki.
+            \n
+            \nTempat dimana anda bisa melakukan Futsal
+        </item>
+        <item>Bulu tangkis atau dalam bahasa Inggris disebut badminton merupakan salah satu cabang olahraga raket yang dimainkan oleh dua orang (untuk tunggal) atau dua pasangan (untuk ganda) yang saling berlawanan.
+            \n
+            \nTempat dimana anda bisa melakukan Badminton
+        </item>
+        <item>Tennis merupakan olahraga yang dimainkan antara dua pemain atau antara dua pasangan (masing-masing dua pemain) yang saling berlawanan. Setiap pemain menggunakan raket untuk memukul bola karet. Tenis adalah salah satu cabang olahraga yang dipertandingkan dalam Olimpiade. Tenis dimainkan pada semua tingkat masyarakat di segala usia. Olahraga ini dapat dimainkan oleh siapa saja, termasuk orang-orang yang duduk di kursi roda.
+            \n
+            \nTempat dimana anda bisa melakukan Tennis
+        </item>
+        <item>Vollyball atau Bola voli merupakan olahraga permainan yang dimainkan oleh dua tim yang masing-masing tim terdiri dari 6 (enam) orang yang saling berlawanan.  Ada juga variasi permainan bola voli pantai yang setiap tim terdiri dua orang pemain.
+            \n
+            \nTempat dimana anda bisa melakukan Vollyball
+        </item>
     </string-array>
     <string-array name="jenis_olahraga_images">
         <item>@drawable/fitness</item>
@@ -251,9 +276,21 @@
         <item>@drawable/softball3</item>
         <item>@drawable/renang</item>
         <item>@drawable/panahan</item>
+        <item>@drawable/golf_tiger_woods</item>
+        <item>@drawable/futsal_group</item>
+        <item>@drawable/badminton_tontowi_natsir</item>
+        <item>@drawable/tennis_federer</item>
+        <item>@drawable/vollyball</item>
     </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_anggota">
+        KELOMPOK 6\n\n
+        EGA FIRMANSYAH H.\n
+        FARHAN RIZKY F.\n
+        RAHMANIA ARINA A. S.\n
+        YOSAFAT DHIMAS K. A.
+    </string>
 
 </resources>

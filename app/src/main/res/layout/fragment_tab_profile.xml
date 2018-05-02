@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.yourbodygoals_apps.TabProfile">
 
+
     <ImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -12,72 +13,69 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"/>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NAME"
-        android:layout_centerHorizontal="true"
+        android:text="FULL NAME"
         android:layout_marginTop="110dp"
-        android:textSize="15dp"
+        android:textSize="10dp"
         android:textStyle="bold"/>
     <TextView
         android:id="@+id/tv_profile_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="140dp"
-        android:textSize="15dp"/>
+        android:text=". . ."
+        android:layout_marginTop="120dp"
+        android:textSize="23dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AGE"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="190dp"
-        android:textSize="15dp"
+        android:textSize="10dp"
         android:textStyle="bold"/>
     <TextView
         android:id="@+id/tv_profile_age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="220dp"
-        android:textSize="15dp"/>
+        android:text=". . ."
+        android:layout_marginTop="200dp"
+        android:textSize="23dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="WEIGHT (KG.)"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="270dp"
-        android:textSize="15dp"
+        android:textSize="10dp"
         android:textStyle="bold"/>
     <TextView
         android:id="@+id/tv_profile_weight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
-        android:textSize="15dp"/>
+        android:text=". . ."
+        android:layout_marginTop="280dp"
+        android:textSize="23dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="HEIGHT (CM.)"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="350dp"
-        android:textSize="15dp"
+        android:textSize="10dp"
         android:textStyle="bold"/>
     <TextView
         android:id="@+id/tv_profile_height"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="380dp"
-        android:textSize="15dp"/>
-
+        android:text=". . ."
+        android:layout_marginTop="360dp"
+        android:textSize="23dp"/>
+    </RelativeLayout>
 </RelativeLayout>

@@ -72,8 +72,6 @@ public class MenuCalculator extends AppCompatActivity {
         if(item.getItemId()==R.id.rumusBMI) {
             buildDialog(0, "Dasar rumus perhitungan Indeks Massa Tubuh atau BMI \nBMI = Berat Badan / (Tinggi Badan * Tinggi Badan");
         }
-
-
         return super.onOptionsItemSelected(item);
     }
 
