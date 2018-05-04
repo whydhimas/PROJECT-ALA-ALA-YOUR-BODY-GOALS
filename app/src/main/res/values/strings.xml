@@ -18,6 +18,8 @@
         <item>Obesitas</item>
         <item>Keracunan Makanan</item>
         <item>Manfaat Air Putih</item>
+        <item>Tips Diet Singkat</item>
+        <item>Kebiasaan Saat Diet</item>
     </string-array>
     <string-array name="wikipedia_desc">
         <item>Mengapa Kita Sakit?
@@ -156,7 +158,7 @@
                 \nDitinjau oleh: dr. Marianti
                 \nSRC: https://www.alodokter.com/obesitas
         </item>
-        <item>Manfaat Minum Air Putih untuk Kesehatan
+        <item>Manfaat Minum Air Putih untuk Kesehatan.
                 \n
                 \nManfaat Minum Air Putih untuk Kesehatan – Air mineral sudah dipercaya sejak dahulu sebagai salahsatu minuman yang dapat menyehatkan tubuh. Karena air putih mineral dapat diserap tubuh dengan mudah sehingga mampu memberikan manfaat yang besar bagi seluruh bagian tubuh. Selain dapat menghindarkan tubuh dari terjadinya dehidrasi dan bisa menghilangkan dahaga, air putih juga memiliki manfaat yang baik bagi kulit dan pencernaan. Seperti yang diketahui bahwa didalam tubuh manusia 55% – 78% merupakan air namun tentu saja persentase tersebut tergantung dari ukuran dan berat badan.
                 \nUntuk menghindari dari terjadinya dehidrasi tubuh manusia membutuhkan air dalam jumlah tertentu, beberapa faktor yang mempengaruhi kebutuhan air tersebut diantaranya dari aktivitas, kelembaban, suhu dan beberapa faktor lainnya. Bahkan ada yang mempercayai bahwa setiap orang membutuhkan air sekitar 8 gelas/hari, namun dari salahsatu penelitian yang dilakukan pada tahun 2008 yang ditunjukan oleh univeristas pennsylvania memaparkan bahwa dengan mengkonsumsi 8 gelas/hari belum terbukti dapat memberikan efek sehat pada tubuh. Bahkan jika dikonsumsi terlalu banyak, air putih dapat mengakibatkan hipotermia dimana zat natrium dalam tubuh menjadi terlalu encer. Jadi sesuaikan dengan berat badan dan juga aktivitas yang Anda lakukan sehari-hari.
@@ -186,6 +188,35 @@
                 \n
                 \nSRC: http://hariansehat.com/manfaat-minum-air-putih-untuk-kesehatan/
         </item>
+        <item>Tips diet singkat, dimana ketika kita memulai untuk diet beberapa orang melakukan kebiasaan yang salah. Berikut beberapa hal yang perlu diperhatikan:
+                \n
+                \n1. Berhenti mengkonsumsi minuman dengan kandungan tinggi kalori seperti cola, teh, kopi dengan susu dan gula, susu, minuman kemasan, dan minuman beralkohol. Mengkonsumsi air putih dapat membantu mengurangi konsumsi kalori.
+                \n
+                \n2. Meningkatkan kegiatan fisik.
+                \nMelakukan aktifitas fisik minimal 30 menit setiap hari. Jika Anda mengalami kelebihan berat badan atau obesitas maka dapat melakukan aktifitas fisik 60-90 menit setiap hari untuk membantu menurunkan berat badan. Aktifitas fisik dapat dilakukan dengan jalan cepat, jogging, menari, berenang, bulu tangkis, tenis, dll. Selain itu dapat mencoba lebih banyak kegiatan seperti menggunakan tangga dan bukan lift, berjalan atau bersepeda untuk bekerja atau sekolah. Menghindari duduk terlalu lama didepan televisi atau komputer.
+                \n
+                \n3. Melakukan monitoring kemajuan usaha menurunkan berat badan.
+                \nMemonitoring berat badan dengan melakukan pengecekan berat badan setiap minggu dan menulisnya pada sebuah buku untuk dapat memantau perkembangan.  Penurunan berat badan pada minggu pertama dapat dengan mudah terjadi. Untuk minggu-minggu selanjutnya penuruna berat badan akan melambat. Hal ini adlah suatu hal yang wajar terjadi. Hitunglah rata-rata penurunan berat badan selama satu bulan.
+                \n
+                \n4. Berkonsultasilah dengan dokter jika merasa membutuhkan terapi obat untuk membantu menurunkan berat badan.
+                \n
+                \nSRC: http://patient.info/health/weight-reduction-how-to-lose-weight
+        </item>
+        <item>Kebiasaan Buruk Perusak Diet antara lain:
+                \n
+                \n1. Minum alkohol
+                \nMinum alkohol adalah kebiasaan buruk pertama yang sangat mungkin merusak diet Anda. Alkohol bisa mengubah dan memicu hormon lapar sehingga Anda akan mengonsumsi lebih banyak makanan. Selain itu, alkohol juga mempengaruhi wilayah otak lainnya yang akan membuat makanan terasa lebih enak. Karena itu, alkohol membuat Anda makan lebih banyak dari biasanya. \nPenelitian mengungkap bahwa mengonsumsi alkohol sebelum makan akan meningkatkan nafsu dan porsi makanan yang dikonsumsi. Selain itu, alkohol juga mengganggu waktu tidur, yang akan berujung pada kebiasaan buruk lainnya, yaitu kurang tidur.
+                \n
+                \n2. Kurang tidur
+                \nJangan pikir bahwa tidur tak ada kaitannya dengan diet yang Anda lakukan. Kurang tidur akan meningkatkan hormon lapar dan membuat seseorang mengonsumsi lebih banyak makanan. Faktanya, penelitian mengungkap bahwa orang yang kurang tidur seringkali merasa lebih lelah dan berakhir mengonsumsi lebih banyak makanan.
+                \n
+                \n3. Terlalu banyak menonton TV
+                \nPenelitian mengungkap bahwa orang yang terlalu banyak menonton televisi cenderung memiliki tubuh yang lebih gemuk. Hal ini karena mereka lebih sedikit bergerak. Selain itu, makan sambil menonton TV juga membuat seseorang mengonsumsi lebih banyak dari porsi yang seharusnya. \nGambar makanan yang ada di televisi pun diketahui bisa memicu rasa lapar yang membuat seseorang ingin makan lebih banyak. Bukan berarti Anda tak boleh menonton televisi, namun ada baiknya mengimbanginya dengan aktivitas yang lebih aktif dan jangan makan sambil menonton TV.
+                \n
+                \nItulah beberapa kebiasaan buruk yang tanpa sadar telah merusak diet banyak orang. Jika Anda sering melakukan salah satunya saat berdiet, sebaiknya segera hentikan sekarang juga.
+                \n
+                \nSRC: https://www.merdeka.com/sehat/3-kebiasaan-buruk-yang-bisa-merusak-diet.html
+        </item>
     </string-array>
     <string-array name="wikiImages">
         <item>@drawable/serangan_kekebalan</item>
@@ -196,6 +227,8 @@
         <item>@drawable/obesitas_alodokter</item>
         <item>@drawable/keracunan_makanan_alodokter</item>
         <item>@drawable/manfaat_air_putih</item>
+        <item>@drawable/tips_diet_singkat</item>
+        <item>@drawable/kebiasaan_saat_diet</item>
     </string-array>
 
     <string-array name="jenis_olahraga_judul">

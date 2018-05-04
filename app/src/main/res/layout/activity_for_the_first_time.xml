@@ -22,6 +22,7 @@
         android:layout_marginTop="250dp"
         android:text="YOU ARE ENTERING THE APPLICATION"/>
     <TextView
+        android:id="@+id/tv_for_the_first_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -32,8 +33,8 @@
         android:id="@+id/btn_EnterTheIdentity"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:layout_below="@id/tv_for_the_first_time"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
         android:text="ENTER YOUR IDENTITY HERE"/>
 
 </RelativeLayout>

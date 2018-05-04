@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/copy" android:title="Copy article"></item>
-    <item android:id="@+id/sizeHigh" android:title="Text size high"></item>
-    <item android:id="@+id/sizeNormal" android:title="Text size normal"></item>
-    <item android:id="@+id/sizeSmall" android:title="Text size small"></item>
-    <item android:id="@+id/share" android:title="Share article"></item>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mainMenu"
+        android:title=""
+        android:icon="@drawable/ic_action_overflow"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/copy"
+                android:title="Copy article"
+                android:icon="@drawable/ic_menu_copy">
+            </item>
+            <item
+                android:id="@+id/sizeHigh"
+                android:title="Text size high"
+                android:icon="@drawable/ic_menu_text_up">
+            </item>
+            <item
+                android:id="@+id/sizeNormal"
+                android:title="Text size normal"
+                android:icon="@drawable/ic_menu_text_normal">
+            </item>
+            <item
+                android:id="@+id/sizeSmall"
+                android:title="Text size small"
+                android:icon="@drawable/ic_menu_text_down">
+            </item>
+            <item
+                android:id="@+id/share"
+                android:title="Share article"
+                android:icon="@drawable/ic_menu_share">
+            </item>
+        </menu>
+    </item>
 </menu>

@@ -5,6 +5,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Build;
 import android.support.v4.app.NotificationCompat;
@@ -52,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(MainActivity.this, CHANNEL_ID)
                         .setSmallIcon(R.drawable.ic_ybg)
+                        .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_ybg))
                         .setContentTitle("Welcome to YOUR BODY GOALS APP")
                         .setContentText("Your are running ver.01 BETA");
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);

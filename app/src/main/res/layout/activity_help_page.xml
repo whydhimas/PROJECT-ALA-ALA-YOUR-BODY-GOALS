@@ -26,4 +26,53 @@
         android:textSize="15sp"
         android:text="I THINK YOU NEED MORE TIME TO USING THIS APP"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textColor="#F0F0F0"
+        android:textSize="15sp"
+        android:text="SEND FEEDBACK TO US"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="yosdhimas@gmail.com"/>
+
+    <EditText
+        android:id="@+id/et_subj_email"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:hint="Subject"/>
+
+    <EditText
+        android:id="@+id/et_text_email"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/et_subj_email"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:hint="Write your feedback"/>
+
+    <Button
+        android:id="@+id/btn_email_send"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="SEND FEEDBACK"
+        android:layout_below="@+id/et_text_email"/>
+
 </RelativeLayout>
