@@ -16,37 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="190dp"
-        android:text="DISUSUN OLEH MAHASISWA-MAHASISWI"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="210dp"
-        android:text="JURUSAN SISTEM INFORMASI"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="230dp"
-        android:text="FAKULTAS REKAYASA INDUSTRI"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
-        android:text="UNIVERSITA TELKOM"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="290dp"
-        android:text="REFERENSI PEMBUATAN APLIKASI INI"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="310dp"
-        android:text="DARI BERBAGAI SUMBER DI PLAYSTORE"/>
-
+        android:gravity="center_horizontal"
+        android:text="DISUSUN OLEH MAHASISWA-MAHASISWI \nJURUSAN SISTEM INFORMASI \nFAKULTAS REKAYASA INDUSTRI \nUNIVERSITA TELKOM \n\nREFERENSI PEMBUATAN APLIKASI INI \nDARI BERBAGAI SUMBER DI PLAYSTORE \nSTACKOVERFLOW, SERTA SUMBER SITUS-\nSITUS LAIN YANG TELAH MENDUKUNG KAMI \n\nSEMOGA APLIKASI INI BERMANFAAT BAGI \nYANG MENGGUNAKANNYA \n\nTERIMA KASIH"/>
 
 </RelativeLayout>

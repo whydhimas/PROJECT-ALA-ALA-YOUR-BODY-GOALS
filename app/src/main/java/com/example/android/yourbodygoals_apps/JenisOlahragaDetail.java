@@ -81,7 +81,7 @@ public class JenisOlahragaDetail extends AppCompatActivity{
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId()==R.id.ketentuanMaps) {
-            buildDialog(0, "Lokasi olah raga akan ditampilkan sesuai dengan GPS anda");
+            buildDialog(0, "Lokasi olahraga akan ditampilkan sesuai dengan GPS anda");
         }
         if(item.getItemId()==R.id.menuitem_home) {
             Intent intent = new Intent(JenisOlahragaDetail.this, MainActivity.class);

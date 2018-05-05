@@ -1,12 +1,15 @@
 package com.example.android.yourbodygoals_apps;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
 
 
 /**
@@ -17,7 +20,7 @@ import android.view.ViewGroup;
  * Use the {@link TabAnggota#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class TabAnggota extends Fragment {
+public class TabAnggota extends Fragment implements View.OnClickListener {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -28,6 +31,10 @@ public class TabAnggota extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
+    LinearLayout mBtnIntentDev;
+
+    View view;
 
     public TabAnggota() {
         // Required empty public constructor
@@ -64,7 +71,11 @@ public class TabAnggota extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tab_anggota, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_tab_anggota, container,false);
+
+        mBtnIntentDev = (LinearLayout) rootView.findViewById(R.id.btn_intent_about);
+        mBtnIntentDev.setOnClickListener(this);
+        return rootView;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -89,6 +100,13 @@ public class TabAnggota extends Fragment {
     public void onDetach() {
         super.onDetach();
         mListener = null;
+    }
+
+    @Override
+    public void onClick(View view) {
+        Intent intent=new Intent(getContext(), AndroidSQLite.class);
+        intent.putExtra("pos",1);
+        startActivity(intent);
     }
 
     /**

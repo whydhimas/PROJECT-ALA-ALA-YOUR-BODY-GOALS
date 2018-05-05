@@ -99,9 +99,9 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                     }
                     else if (theFinal == 4){
-                        //Intent intent = new Intent(MainActivity.this, MenuRiwayatPenggunaan.class);
-                        //startActivity(intent);
-                        buildDialog(0, "Menu under construction \nYou are running ver.01 BETA");
+                        Intent intent = new Intent(MainActivity.this, MenuRiwayatPenggunaan.class);
+                        startActivity(intent);
+                        //buildDialog(0, "Menu under construction \nYou are running ver.01 BETA");
                     }
                     else if (theFinal == 5){
                         Intent intent = new Intent(MainActivity.this, MenuAbout.class);

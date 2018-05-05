@@ -1,6 +1,8 @@
 package com.example.android.yourbodygoals_apps;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.support.v7.app.AlertDialog;
@@ -23,6 +25,9 @@ public class MenuCalculator extends AppCompatActivity {
     Button mCountCalc;
     TextView mResultNumCalc;
     TextView mResultCalc;
+
+    private SQLiteDatabase database;
+    private boolean mUpdate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
