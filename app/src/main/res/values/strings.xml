@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">YOUR BODY GOALS</string>
-    <string name="very_severely_underweight">Berat badan Anda sangat amat kurus,\nAnda harus banyak makan makanan berkarbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="severely_underweight">Berat badan Anda sangat kurus,\nAnda harus banyak makan makanan berkarbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="underweight">Berat badan Anda kurus,\nAnda harus banyak makan makanan berkarbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="normal">Berat badan Anda normal,\npertahankan dengan olah raga yang teratur dan makan makanan bergizi \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="overweight">Anda kelebihan berat badan,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="obese_class_i">Anda obesitas kelas I,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="obese_class_ii">Anda obesitas kelas II,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
-    <string name="obese_class_iii">Anda obesitas kelas III,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nRekomendasi disini: \nMakanan Sehat \nOlahraga yang disarankan</string>
+    <string name="very_severely_underweight">Berat badan Anda sangat amat kurus,\nAnda harus banyak makan makanan berkarbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
+    <string name="severely_underweight">Berat badan Anda sangat kurus,\nAnda harus banyak makan makanan berkarbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
+    <string name="underweight">Berat badan Anda kurus,\nAnda harus banyak makan makanan berkarbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
+    <string name="normal">Berat badan Anda normal,\npertahankan dengan olah raga yang teratur dan makan makanan bergizi \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
+    <string name="overweight">Anda kelebihan berat badan,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
+    <string name="obese_class_i">Anda obesitas kelas I,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
+    <string name="obese_class_ii">Anda obesitas kelas II,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
+    <string name="obese_class_iii">Anda obesitas kelas III,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
 
     <string-array name="wikipedia_judul">
         <item>Makanan dan Kesehatan</item>

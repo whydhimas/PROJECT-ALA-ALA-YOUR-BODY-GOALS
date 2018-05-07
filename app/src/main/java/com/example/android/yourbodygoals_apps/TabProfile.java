@@ -52,6 +52,8 @@ public class TabProfile extends Fragment {
     TextView mAge;
     TextView mWeight;
     TextView mHeight;
+    TextView mResultNumCalc;
+    TextView mResultCalc;
 
     String mStringData1;
     String mStringData2;
@@ -99,6 +101,8 @@ public class TabProfile extends Fragment {
         mAge = (TextView)view.findViewById(R.id.tv_profile_age);
         mHeight = (TextView)view.findViewById(R.id.tv_profile_height);
         mWeight = (TextView)view.findViewById(R.id.tv_profile_weight);
+        mResultNumCalc = (TextView)view.findViewById(R.id.tv_profile_bmi);
+        mResultCalc = (TextView)view.findViewById(R.id.tv_profile_result_capt);
 
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
 
@@ -117,6 +121,16 @@ public class TabProfile extends Fragment {
                     mAge.setText(mStringData2);
                     mHeight.setText(mStringData3);
                     mWeight.setText(mStringData4);
+
+                    if (mStringData3 != null && !"".equals(mStringData3) && mStringData4 != null  &&  !"".equals(mStringData4)) {
+                        float heightValue = Float.parseFloat(mStringData3) / 100;
+                        float weightValue = Float.parseFloat(mStringData4);
+
+                        float bmi = weightValue / (heightValue * heightValue);
+
+                        displayBMI(bmi);
+                    }
+
                 }
             }
 
@@ -128,6 +142,31 @@ public class TabProfile extends Fragment {
         ref.addListenerForSingleValueEvent(evl);
 
         return view;
+    }
+
+    private void displayBMI(float bmi) {
+        String bmiLabel = "";
+
+        if (Float.compare(bmi, 15f) <= 0) {
+            bmiLabel = getString(R.string.very_severely_underweight);
+        } else if (Float.compare(bmi, 15f) > 0  &&  Float.compare(bmi, 16f) <= 0) {
+            bmiLabel = getString(R.string.severely_underweight);
+        } else if (Float.compare(bmi, 16f) > 0  &&  Float.compare(bmi, 18.5f) <= 0) {
+            bmiLabel = getString(R.string.underweight);
+        } else if (Float.compare(bmi, 18.5f) > 0  &&  Float.compare(bmi, 25f) <= 0) {
+            bmiLabel = getString(R.string.normal);
+        } else if (Float.compare(bmi, 25f) > 0  &&  Float.compare(bmi, 30f) <= 0) {
+            bmiLabel = getString(R.string.overweight);
+        } else if (Float.compare(bmi, 30f) > 0  &&  Float.compare(bmi, 35f) <= 0) {
+            bmiLabel = getString(R.string.obese_class_i);
+        } else if (Float.compare(bmi, 35f) > 0  &&  Float.compare(bmi, 40f) <= 0) {
+            bmiLabel = getString(R.string.obese_class_ii);
+        } else {
+            bmiLabel = getString(R.string.obese_class_iii);
+        }
+
+        mResultNumCalc.setText(Float.toString(bmi));
+        mResultCalc.setText(bmiLabel);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
