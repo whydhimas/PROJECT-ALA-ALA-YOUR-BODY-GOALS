@@ -35,8 +35,6 @@ public class MenuCalculator extends AppCompatActivity {
     private SQLiteDatabase database;
     private boolean mUpdate;
 
-    Dialog myDialog;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
