@@ -52,6 +52,7 @@ public class AndroidSQLite extends Activity {
         String[] from = new String[]{SQLiteAdapter.KEY_CONTENT};
         int[] to = new int[]{R.id.text};
 
+        //parameter objek
         SimpleCursorAdapter cursorAdapter =
                 new SimpleCursorAdapter(this, R.layout.row, cursor, from, to);
 

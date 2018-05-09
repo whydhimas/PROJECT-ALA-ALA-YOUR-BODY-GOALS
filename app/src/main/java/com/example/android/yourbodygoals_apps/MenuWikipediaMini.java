@@ -36,7 +36,6 @@ public class MenuWikipediaMini extends AppCompatActivity implements SearchView.O
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mWikiMini = new ArrayList<WikipediaMini>();
-
         mAdapter = new WikipediaMiniAdapter(this, mWikiMini);
         mRecyclerView.setAdapter(mAdapter);
 

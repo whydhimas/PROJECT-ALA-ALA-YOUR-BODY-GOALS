@@ -23,7 +23,8 @@ public class WikipediaMiniAdapter extends RecyclerView.Adapter<WikipediaMiniAdap
         this.mContext = context;
     }
 
-        @Override
+    @Override
+    //nyimpen referensi view-view dari data2 dalam recyclerview
     public WikipediaMiniAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         return new ViewHolder(LayoutInflater.from(mContext).inflate(R.layout.item_list, parent, false));
     }

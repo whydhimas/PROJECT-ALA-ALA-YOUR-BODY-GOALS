@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         setSingleEvent(mainGrid);
 
-        //iki nggawe Notification ya mas
+        //membuat Notifikasi
         String CHANNEL_ID = "my_channel_id";
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(MainActivity.this, CHANNEL_ID)
@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
         stackBuilder.addNextIntent(intent);
 
         PendingIntent pendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
-
         mBuilder.setContentIntent(pendingIntent);
 
         //men-trigger notifikasi

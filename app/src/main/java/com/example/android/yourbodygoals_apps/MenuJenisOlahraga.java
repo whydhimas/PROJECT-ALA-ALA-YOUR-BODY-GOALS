@@ -82,7 +82,6 @@ public class MenuJenisOlahraga extends AppCompatActivity implements SearchView.O
 
     @Override
     public boolean onQueryTextChange(String newText) {
-
         newText = newText.toLowerCase();
         ArrayList<JenisOlahraga> newList = new ArrayList<>();
         for(JenisOlahraga jenisOlahraga: mJenisOlahraga) {

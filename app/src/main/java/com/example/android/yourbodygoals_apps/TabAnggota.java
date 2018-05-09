@@ -72,7 +72,6 @@ public class TabAnggota extends Fragment implements View.OnClickListener {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_tab_anggota, container,false);
-
         mBtnIntentDev = (LinearLayout) rootView.findViewById(R.id.btn_intent_about);
         mBtnIntentDev.setOnClickListener(this);
         return rootView;

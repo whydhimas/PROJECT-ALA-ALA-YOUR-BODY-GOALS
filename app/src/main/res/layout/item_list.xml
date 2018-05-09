@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<android.support.v7.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -10,6 +10,10 @@
         android:src="@drawable/bg_listview"
         android:adjustViewBounds="true"/>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground">
     <TextView
         android:id="@+id/title"
         style="@style/TextAppearance.AppCompat.Headline"
@@ -21,7 +25,6 @@
         android:padding="8dp"
         android:text="Judul"
         android:textColor="#000000"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark"
-        android:background="?attr/selectableItemBackgroundBorderless"/>
-
-</RelativeLayout>
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

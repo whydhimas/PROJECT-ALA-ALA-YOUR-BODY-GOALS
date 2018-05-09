@@ -32,7 +32,11 @@ public class MenuRiwayatPenggunaan extends AppCompatActivity implements AdapterV
         setContentView(R.layout.activity_menu_riwayat_penggunaan);
 
         listView = (ListView) findViewById(R.id.list);
-        String[] theHistory = {"24.618105 \nBerat badan Anda normal","24.221453 \nBerat badan Anda normal","18.732784 \nBerat badan Anda normal","31.955925 \nAnda obesitas kelas I","30.222221 \nAnda obesitas kelas I"};
+        String[] theHistory = {"24.618105 \nBerat badan Anda normal",
+                                "24.221453 \nBerat badan Anda normal",
+                                "18.732784 \nBerat badan Anda normal",
+                                "31.955925 \nAnda obesitas kelas I",
+                                "30.222221 \nAnda obesitas kelas I"};
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, theHistory);
         listView.setAdapter(arrayAdapter);

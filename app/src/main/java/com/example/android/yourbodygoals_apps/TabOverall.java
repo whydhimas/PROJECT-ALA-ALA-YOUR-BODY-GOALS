@@ -63,7 +63,7 @@ public class TabOverall extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // memanggil dan menampilkan tampilan layout
         return inflater.inflate(R.layout.fragment_tab_overall, container, false);
     }
 

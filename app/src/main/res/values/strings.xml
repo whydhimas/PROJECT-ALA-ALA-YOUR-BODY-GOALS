@@ -5,9 +5,9 @@
     <string name="underweight">Berat badan Anda kurus,\nAnda harus banyak makan makanan berkarbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
     <string name="normal">Berat badan Anda normal,\npertahankan dengan olah raga yang teratur dan makan makanan bergizi \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
     <string name="overweight">Anda kelebihan berat badan,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
-    <string name="obese_class_i">Anda obesitas kelas I,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
-    <string name="obese_class_ii">Anda obesitas kelas II,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
-    <string name="obese_class_iii">Anda obesitas kelas III,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
+    <string name="obese_class_i">Anda menderita obesitas kelas I,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
+    <string name="obese_class_ii">Anda menderita obesitas kelas II,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
+    <string name="obese_class_iii">Anda menderita obesitas kelas III,\nAnda harus banyak makan makanan sayur dan kurangi karbohidrat \n\nLihat rekomendasi \nmakanan sehat sesuai umur anda</string>
 
     <string-array name="wikipedia_judul">
         <item>Makanan dan Kesehatan</item>
